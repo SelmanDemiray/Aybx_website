@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "id": "g1",
+      "question": "What is Canada's system of government?",
+      "options": [
+        "Republic",
+        "Constitutional monarchy",
+        "Direct democracy",
+        "Communist state"
+      ],
+      "correctAnswer": "Constitutional monarchy",
+      "explanation": "Canada is a constitutional monarchy, a parliamentary democracy, and a federal state. The Queen or King of Canada is the head of state.",
+      "reference": "Discover Canada, p. 30",
+      "category": "government",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g2",
+      "question": "Who is Canada's head of state?",
+      "options": [
+        "The Prime Minister",
+        "The Governor General",
+        "The King",
+        "The Chief Justice"
+      ],
+      "correctAnswer": "The King",
+      "explanation": "Canada's head of state is the King or Queen of Canada, currently King Charles III. The Governor General represents the King in Canada.",
+      "reference": "Discover Canada, p. 30",
+      "category": "government",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g3",
+      "question": "What are the three levels of government in Canada?",
+      "options": [
+        "Federal, provincial/territorial, municipal",
+        "Executive, legislative, judicial",
+        "Monarchy, parliament, judiciary",
+        "House of Commons, Senate, Supreme Court"
+      ],
+      "correctAnswer": "Federal, provincial/territorial, municipal",
+      "explanation": "Canada has three levels of government: federal (national), provincial or territorial, and municipal (local).",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g4",
+      "question": "How are Members of Parliament (MPs) chosen?",
+      "options": [
+        "Appointed by the Prime Minister",
+        "Elected by Canadian citizens",
+        "Selected by the Governor General",
+        "Appointed by provincial governments"
+      ],
+      "correctAnswer": "Elected by Canadian citizens",
+      "explanation": "Members of Parliament (MPs) are elected by Canadian citizens to represent them in the House of Commons.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g5",
+      "question": "What is the role of the Supreme Court of Canada?",
+      "options": [
+        "To write new laws",
+        "To enforce existing laws",
+        "To interpret laws and the Constitution",
+        "To advise the Prime Minister"
+      ],
+      "correctAnswer": "To interpret laws and the Constitution",
+      "explanation": "The Supreme Court of Canada is the highest court in the country and the final authority for interpreting laws and the Constitution.",
+      "reference": "Discover Canada, p. 34",
+      "category": "government",
+      "difficulty": "medium"
+    }
+  ]
+}

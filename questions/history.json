@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "id": "h1",
+      "question": "Who were the first people to live in Canada?",
+      "options": [
+        "Europeans",
+        "Indigenous peoples",
+        "Chinese immigrants",
+        "Vikings"
+      ],
+      "correctAnswer": "Indigenous peoples",
+      "explanation": "Indigenous peoples (First Nations, Inuit, and Métis) were the first people to live in Canada, arriving thousands of years before European explorers.",
+      "reference": "Discover Canada, p. 10",
+      "category": "history",
+      "difficulty": "easy"
+    },
+    {
+      "id": "h2",
+      "question": "When did the first European explorers reach Canada?",
+      "options": [
+        "Around 1000 CE",
+        "In the late 1400s",
+        "In the 1700s",
+        "In the 1800s"
+      ],
+      "correctAnswer": "Around 1000 CE",
+      "explanation": "The Vikings were the first Europeans to reach Canada, establishing a settlement in L'Anse aux Meadows in Newfoundland around 1000 CE.",
+      "reference": "Discover Canada, p. 14",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h3",
+      "question": "Who was the first European to map Canada's Atlantic coast?",
+      "options": [
+        "John Cabot",
+        "Jacques Cartier",
+        "Samuel de Champlain",
+        "Christopher Columbus"
+      ],
+      "correctAnswer": "Jacques Cartier",
+      "explanation": "Jacques Cartier made three voyages to Canada between 1534 and 1542, exploring and mapping the Gulf of St. Lawrence and the St. Lawrence River.",
+      "reference": "Discover Canada, p. 14",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h4",
+      "question": "When did Canada become a country with its own constitution?",
+      "options": [
+        "1867",
+        "1931",
+        "1982",
+        "1999"
+      ],
+      "correctAnswer": "1867",
+      "explanation": "The British North America Act (now known as the Constitution Act, 1867) created the Dominion of Canada on July 1, 1867.",
+      "reference": "Discover Canada, p. 19",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h5",
+      "question": "Which province was the first to grant women the right to vote in provincial elections?",
+      "options": [
+        "Ontario",
+        "Quebec",
+        "Manitoba",
+        "British Columbia"
+      ],
+      "correctAnswer": "Manitoba",
+      "explanation": "Manitoba was the first province to grant women the right to vote in provincial elections in 1916.",
+      "reference": "Discover Canada, p. 21",
+      "category": "history",
+      "difficulty": "hard"
+    }
+  ]
+}

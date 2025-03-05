@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "id": "r1",
+      "question": "What document guarantees rights and freedoms for all Canadians?",
+      "options": [
+        "The British North America Act",
+        "The Canadian Charter of Rights and Freedoms",
+        "The Declaration of Independence",
+        "The Treaty of Paris"
+      ],
+      "correctAnswer": "The Canadian Charter of Rights and Freedoms",
+      "explanation": "The Canadian Charter of Rights and Freedoms is part of the Constitution Act, 1982 and guarantees the rights and freedoms of all Canadians.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r2",
+      "question": "Which of the following is NOT a right guaranteed by the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "Freedom of expression",
+        "Freedom of religion",
+        "The right to own property",
+        "The right to equality"
+      ],
+      "correctAnswer": "The right to own property",
+      "explanation": "While property rights are protected by law, they are not specifically guaranteed in the Charter of Rights and Freedoms.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r3",
+      "question": "What is an example of a responsibility of Canadian citizenship?",
+      "options": [
+        "To vote in elections",
+        "To join a political party",
+        "To own a business",
+        "To attend church"
+      ],
+      "correctAnswer": "To vote in elections",
+      "explanation": "Voting in elections is an important responsibility of Canadian citizenship, along with obeying the law, serving on a jury, and respecting the rights and freedoms of others.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r4",
+      "question": "At what age can Canadians vote in federal elections?",
+      "options": [
+        "16 years",
+        "18 years",
+        "19 years",
+        "21 years"
+      ],
+      "correctAnswer": "18 years",
+      "explanation": "Canadian citizens who are 18 years or older have the right to vote in federal, provincial/territorial, and municipal elections.",
+      "reference": "Discover Canada, p. 36",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r5",
+      "question": "What does it mean to serve on a jury?",
+      "options": [
+        "To work for the government",
+        "To help decide the outcome of a court case",
+        "To run for political office",
+        "To serve in the military"
+      ],
+      "correctAnswer": "To help decide the outcome of a court case",
+      "explanation": "Serving on a jury is a responsibility of Canadian citizenship. Jurors help decide the outcome of court cases based on evidence presented in court.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    }
+  ]
+}
