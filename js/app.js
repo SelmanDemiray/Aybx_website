@@ -239,11 +239,39 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         },
         
+        // Add the missing navigateTo function
         navigateTo: function(page) {
+            // Update current page
+            this.currentPage = page;
+            
             // Remove active class from all pages and nav links
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-            document.querySelectorAll('[data-page]').forEach(link => link.classList.remove('active'));
+            document.querySelectorAll('nav a').forEach(link => link.classList.remove('active'));
             
+            // Add active class to current page and nav link
+            document.getElementById(page).classList.add('active');
+            document.querySelector(`nav a[data-page="${page}"]`).classList.add('active');
+            
+            // Execute page-specific logic
+            if (page === 'study') {
+                this.loadStudyQuestions();
+            } else if (page === 'test') {
+                // Reset the test view
+                document.querySelector('.test-start').style.display = 'block';
+                document.getElementById('test-area').classList.add('hidden');
+            }
+            
+            // Scroll to top of page
+            window.scrollTo(0, 0);
+        },
+        
+        // Add the missing loadStudyQuestions function
+        loadStudyQuestions: function() {
+            const category = this.studyMode.currentCategory;
+            console.log(`Loading study questions for category: ${category}`);
+            
+            // Get questions for the selected category
+            this.studyMode.currentQuestions = questionLoader.getQuestionsByCategory(category);
             
             console.log(`Loaded ${this.studyMode.currentQuestions.length} study questions`);
             
@@ -262,6 +290,52 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Update UI
             document.getElementById('total-in-category').textContent = this.studyMode.currentQuestions.length;
             this.updateStudyQuestion();
+        },
+        
+        setupEventListeners: function() {
+            // Add event listeners for study mode
+            document.getElementById('flip-btn').addEventListener('click', () => this.flipCard());
+            document.getElementById('prev-btn').addEventListener('click', () => this.prevQuestion());
+            document.getElementById('next-btn').addEventListener('click', () => this.nextQuestion());
+            
+            // Add event listeners for test mode
+            document.getElementById('start-test').addEventListener('click', () => this.startTest());
+            document.getElementById('prev-test-btn').addEventListener('click', () => this.prevTestQuestion());
+            document.getElementById('next-test-btn').addEventListener('click', () => this.nextTestQuestion());
+            document.getElementById('submit-test').addEventListener('click', () => this.submitTest());
+            
+            // Populate test category dropdown with same options as study mode
+            const studyDropdown = document.getElementById('category');
+            const testDropdown = document.getElementById('test-category');
+            
+            if (studyDropdown && testDropdown) {
+                // Clone options from study dropdown to test dropdown
+                Array.from(studyDropdown.options).forEach(option => {
+                    const newOption = document.createElement('option');
+                    newOption.value = option.value;
+                    newOption.textContent = option.textContent;
+                    testDropdown.appendChild(newOption);
+                });
+            }
+            
+            // Add event listener for theme toggle checkbox
+            document.getElementById('theme-toggle-input').addEventListener('change', () => this.toggleTheme());
+            
+            // Close results modal when clicking the X
+            const closeBtn = document.querySelector('.modal .close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => {
+                    document.getElementById('results-modal').style.display = 'none';
+                });
+            }
+
+            // Close modal when clicking outside of it
+            window.addEventListener('click', (e) => {
+                const modal = document.getElementById('results-modal');
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
         },
         
         updateStudyQuestion: function() {
@@ -509,77 +583,71 @@ document.addEventListener('DOMContentLoaded', async () => {
             this.testMode.questions.forEach((question, index) => {
                 const userAnswer = this.testMode.answers[index];
                 const userAnswerText = userAnswer !== null ? question.options[userAnswer] : 'Not answered';
-                const isCorrect = userAnswer !== null && question.options[userAnswer] === question.correctAnswer;
-                
-                let referenceText = question.reference || '';
-                // Apply correction function if available
-                if (typeof correctReference === 'function' && referenceText) {
-                    referenceText = correctReference(referenceText);
-                }
+                const isCorrect = userAnswerText === question.correctAnswer;
                 
                 const questionElement = document.createElement('div');
                 questionElement.className = `question-result ${isCorrect ? 'correct' : 'incorrect'}`;
+                
                 questionElement.innerHTML = `
                     <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-                    <p><strong>Your answer:</strong> ${userAnswerText}</p>
-                    <p><strong>Correct answer:</strong> ${question.correctAnswer}</p>
+                    <p><strong>Your Answer:</strong> ${userAnswerText}</p>
+                    <p><strong>Correct Answer:</strong> ${question.correctAnswer}</p>
                     ${question.explanation ? `<p><strong>Explanation:</strong> ${question.explanation}</p>` : ''}
-                    ${referenceText ? `<p><strong>Reference:</strong> ${referenceText}</p>` : ''}
                 `;
+                
+                // Add reference if available
+                if (question.reference) {
+                    const referenceText = typeof correctReference === 'function' ? 
+                        correctReference(question.reference) : question.reference;
+                    questionElement.innerHTML += `<p class="reference"><strong>Source:</strong> ${referenceText}</p>`;
+                }
+                
                 resultsDetails.appendChild(questionElement);
             });
             
-            // Add footer with additional buttons
+            // Add modal footer with buttons
             const modalFooter = document.createElement('div');
             modalFooter.className = 'modal-footer';
             
-            const closeButton = document.createElement('button');
-            closeButton.className = 'btn secondary';
-            closeButton.textContent = 'Close';
-            closeButton.addEventListener('click', () => {
+            // Add retry button
+            const retryButton = document.createElement('button');
+            retryButton.className = 'btn secondary';
+            retryButton.textContent = 'Try Again';
+            retryButton.addEventListener('click', () => {
                 resultsModal.style.display = 'none';
+                this.navigateTo('test');
             });
+            modalFooter.appendChild(retryButton);
             
-            const reviewButton = document.createElement('button');
-            reviewButton.className = 'btn primary';
-            reviewButton.textContent = 'Study More';
-            reviewButton.addEventListener('click', () => {
+            // Add study button
+            const studyButton = document.createElement('button');
+            studyButton.className = 'btn primary';
+            studyButton.textContent = 'Study More';
+            studyButton.addEventListener('click', () => {
                 resultsModal.style.display = 'none';
                 this.navigateTo('study');
             });
+            modalFooter.appendChild(studyButton);
             
-            modalFooter.appendChild(closeButton);
-            modalFooter.appendChild(reviewButton);
-            
-            // Add footer to results
-            resultsDetails.appendChild(modalFooter);
-            
-            // Ensure the modal is scrolled to the top
-            resultsModal.scrollTop = 0;
+            // Update modal content
+            const modalContent = document.querySelector('.modal-content');
+            if (modalContent.querySelector('.modal-footer')) {
+                modalContent.removeChild(modalContent.querySelector('.modal-footer'));
+            }
+            modalContent.appendChild(modalFooter);
             
             // Show modal
             resultsModal.style.display = 'block';
             
-            // Reset test UI
+            // Reset test mode
+            this.testMode.isActive = false;
+            
+            // Navigate back to test selection
             document.querySelector('.test-start').style.display = 'block';
             document.getElementById('test-area').classList.add('hidden');
         }
     };
     
     // Initialize the app
-    await app.init();
-
+    app.init();
 });
-
-function showAnswer(question) {
-    // Existing code that shows the answer...
-    
-    // Add the reference text if available
-    const referenceText = document.getElementById('reference-text');
-    if (question.reference) {
-        referenceText.textContent = `Source: ${question.reference}`;
-        referenceText.style.display = 'block';
-    } else {
-        referenceText.style.display = 'none';
-    }
-}

@@ -374,6 +374,456 @@
       "reference": "Discover Canada, p. 38, 'Flags in Canada'",
       "category": "symbols",
       "difficulty": "medium"
+    },
+    {
+      "id": "s1",
+      "question": "What is on the Canadian flag?",
+      "options": [
+        "A beaver",
+        "A maple leaf",
+        "The Union Jack",
+        "A moose"
+      ],
+      "correctAnswer": "A maple leaf",
+      "explanation": "The Canadian national flag features a stylized red maple leaf on a white square with red bands on either side.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s2",
+      "question": "When was the current Canadian flag adopted?",
+      "options": [
+        "1867",
+        "1931",
+        "1965",
+        "1982"
+      ],
+      "correctAnswer": "1965",
+      "explanation": "The current maple leaf flag was officially adopted on February 15, 1965, replacing the Red Ensign.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s3",
+      "question": "What animal is an official symbol of Canada?",
+      "options": [
+        "Polar bear",
+        "Moose",
+        "Beaver",
+        "Loon"
+      ],
+      "correctAnswer": "Beaver",
+      "explanation": "The beaver was designated as an official symbol of Canada in 1975, recognizing its historical significance in the fur trade and development of Canada.",
+      "reference": "Discover Canada, p. 39",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s4",
+      "question": "What is Canada's national anthem?",
+      "options": [
+        "God Save the Queen",
+        "O Canada",
+        "The Maple Leaf Forever",
+        "Canada True North"
+      ],
+      "correctAnswer": "O Canada",
+      "explanation": "O Canada became the official national anthem in 1980, though it had been sung since 1880.",
+      "reference": "Discover Canada, p. 40",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s5",
+      "question": "What is Canada's official motto?",
+      "options": [
+        "Peace, Order, and Good Government",
+        "From Sea to Sea",
+        "True North Strong and Free",
+        "Unity in Diversity"
+      ],
+      "correctAnswer": "From Sea to Sea",
+      "explanation": "Canada's official motto is 'A Mari Usque Ad Mare,' which means 'From Sea to Sea' in Latin.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s6",
+      "question": "Which of these sports is Canada's national winter sport?",
+      "options": [
+        "Basketball",
+        "Ice hockey",
+        "Curling",
+        "Skiing"
+      ],
+      "correctAnswer": "Ice hockey",
+      "explanation": "Ice hockey was officially declared Canada's national winter sport in 1994.",
+      "reference": "Discover Canada, p. 39",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s7",
+      "question": "Which of these sports is Canada's national summer sport?",
+      "options": [
+        "Soccer",
+        "Baseball",
+        "Lacrosse",
+        "Tennis"
+      ],
+      "correctAnswer": "Lacrosse",
+      "explanation": "Lacrosse was declared Canada's national summer sport in 1994. The game originated with Indigenous peoples and has been played in Canada for hundreds of years.",
+      "reference": "Discover Canada, p. 39",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s8",
+      "question": "What is the name of the tower in the Centre Block of Parliament?",
+      "options": [
+        "Victory Tower",
+        "Canada Tower",
+        "Peace Tower",
+        "Confederation Tower"
+      ],
+      "correctAnswer": "Peace Tower",
+      "explanation": "The Peace Tower (Tour de la Paix) is the main tower of the Centre Block of the Parliament buildings, built to commemorate Canada's commitment to peace.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s9",
+      "question": "What symbol appears on the Royal Canadian Mounted Police (RCMP) badge?",
+      "options": [
+        "A bear",
+        "A buffalo",
+        "A maple leaf",
+        "A beaver"
+      ],
+      "correctAnswer": "A buffalo",
+      "explanation": "The Royal Canadian Mounted Police (RCMP) badge features a buffalo head, representing the force's origins in the Canadian West.",
+      "reference": "Discover Canada, p. 39",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s10",
+      "question": "What flower is a symbol of Ontario?",
+      "options": [
+        "Lily",
+        "Rose",
+        "Tulip",
+        "Trillium"
+      ],
+      "correctAnswer": "Trillium",
+      "explanation": "The white trillium is the official floral emblem of Ontario.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s11",
+      "question": "What flower is a symbol of Quebec?",
+      "options": [
+        "Lily",
+        "Fleur-de-lis",
+        "Rose",
+        "Tulip"
+      ],
+      "correctAnswer": "Lily",
+      "explanation": "The white garden lily (fleur-de-lis) is Quebec's floral emblem, and the stylized fleur-de-lis also appears on Quebec's flag.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s12",
+      "question": "What tree is considered a symbol of Canada?",
+      "options": [
+        "Pine tree",
+        "Maple tree",
+        "Oak tree",
+        "Cedar tree"
+      ],
+      "correctAnswer": "Maple tree",
+      "explanation": "The maple tree, particularly the sugar maple, is a Canadian symbol, with its leaf appearing on the national flag and the coat of arms.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s13",
+      "question": "Who is Canada's head of state?",
+      "options": [
+        "The Prime Minister",
+        "The Governor General",
+        "The King",
+        "The Chief Justice"
+      ],
+      "correctAnswer": "The King",
+      "explanation": "Canada's head of state is the British sovereign (King Charles III). The Governor General represents the monarch in Canada.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s14",
+      "question": "What song is played to honor the monarch in Canada?",
+      "options": [
+        "O Canada",
+        "God Save the King",
+        "The Maple Leaf Forever",
+        "Land of Hope and Glory"
+      ],
+      "correctAnswer": "God Save the King",
+      "explanation": "In Canada, 'God Save the King' (or 'God Save the Queen' when the monarch is female) is the Royal Anthem, played to honor the monarch.",
+      "reference": "Discover Canada, p. 40",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s15",
+      "question": "What symbol is used on Canadian coins that feature Queen Elizabeth II?",
+      "options": [
+        "A crown",
+        "The Queen's portrait",
+        "The royal coat of arms",
+        "A maple leaf"
+      ],
+      "correctAnswer": "The Queen's portrait",
+      "explanation": "Canadian coins typically feature the portrait of the reigning monarch on one side. Coins minted during Queen Elizabeth II's reign feature her portrait.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s16",
+      "question": "What does the maple leaf on Canada's flag represent?",
+      "options": [
+        "The military",
+        "The monarchy",
+        "Canadian identity and unity",
+        "Peace with First Nations"
+      ],
+      "correctAnswer": "Canadian identity and unity",
+      "explanation": "The maple leaf on Canada's flag represents Canadian identity and unity, a symbol recognized around the world.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s17",
+      "question": "What is the highest civilian honor in Canada?",
+      "options": [
+        "The Order of Canada",
+        "The Victoria Cross",
+        "The Order of Merit",
+        "The Prime Minister's Award"
+      ],
+      "correctAnswer": "The Order of Canada",
+      "explanation": "The Order of Canada is the highest civilian honor for merit in Canada, recognizing outstanding achievement, dedication to the community, and service to the nation.",
+      "reference": "Discover Canada, p. 40",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s18",
+      "question": "What is the flag that was used in Canada before the current maple leaf flag?",
+      "options": [
+        "The Union Jack",
+        "The Red Ensign",
+        "The White Ensign",
+        "The Pearson Pennant"
+      ],
+      "correctAnswer": "The Red Ensign",
+      "explanation": "Before the adoption of the maple leaf flag in 1965, Canada used a Red Ensign with the Union Jack in the canton and the Canadian coat of arms on the fly.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s19",
+      "question": "When is Canada Day celebrated?",
+      "options": [
+        "May 1",
+        "July 1",
+        "August 15",
+        "December 25"
+      ],
+      "correctAnswer": "July 1",
+      "explanation": "Canada Day is celebrated on July 1, commemorating the anniversary of Confederation in 1867 when the British North America Act united the three colonies into a single country.",
+      "reference": "Discover Canada, p. 41",
+      "category": "symbols",
+      "difficulty": "easy"
+    },
+    {
+      "id": "s20",
+      "question": "What types of leaves are shown on the Canadian coat of arms?",
+      "options": [
+        "Maple leaves only",
+        "Maple leaves and oak leaves",
+        "Pine needles and maple leaves",
+        "Oak leaves only"
+      ],
+      "correctAnswer": "Maple leaves and oak leaves",
+      "explanation": "The Canadian coat of arms features both maple leaves (representing Canada) and oak leaves (representing England), reflecting Canada's historical ties.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s21",
+      "question": "What animals appear on the Canadian coat of arms?",
+      "options": [
+        "Beaver and moose",
+        "Lion and unicorn",
+        "Eagle and beaver",
+        "Polar bear and caribou"
+      ],
+      "correctAnswer": "Lion and unicorn",
+      "explanation": "The Canadian coat of arms features a lion (representing England) on the viewer's left and a unicorn (representing Scotland) on the right.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s22",
+      "question": "What is the design on the reverse side of the Canadian penny coin?",
+      "options": [
+        "A beaver",
+        "A maple leaf",
+        "A caribou",
+        "The Parliament buildings"
+      ],
+      "correctAnswer": "A maple leaf",
+      "explanation": "The modern Canadian penny (one-cent coin), before it was discontinued in 2012, featured two maple leaves on a common twig on its reverse side.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s23",
+      "question": "What is the official national tartan of Canada?",
+      "options": [
+        "Royal Stewart",
+        "Maple Leaf",
+        "Nova Scotia",
+        "Canadian Forces"
+      ],
+      "correctAnswer": "Maple Leaf",
+      "explanation": "The Maple Leaf Tartan was declared the official national tartan of Canada in 2011. Its colors reflect the changing colors of maple leaves through the seasons.",
+      "reference": "Discover Canada, p. 40",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s24",
+      "question": "What does the word 'Canada' mean in Iroquoian language?",
+      "options": [
+        "Big country",
+        "Land of the people",
+        "Village or settlement",
+        "Great white north"
+      ],
+      "correctAnswer": "Village or settlement",
+      "explanation": "The name 'Canada' is derived from the Iroquoian word 'kanata', which means 'village' or 'settlement'.",
+      "reference": "Discover Canada, p. 14",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s25",
+      "question": "When did Canada celebrate its 150th anniversary?",
+      "options": [
+        "2000",
+        "2017",
+        "2020",
+        "1997"
+      ],
+      "correctAnswer": "2017",
+      "explanation": "Canada celebrated its 150th anniversary of Confederation in 2017, marking 150 years since the British North America Act of 1867.",
+      "reference": "Discover Canada, p. 41",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s26",
+      "question": "What is the significance of the red and white colors on the Canadian flag?",
+      "options": [
+        "They represent the Indigenous and European peoples",
+        "They were King George V's favorite colors",
+        "They were proclaimed Canada's national colours by King George V in 1921",
+        "They represent Canada's two founding nations"
+      ],
+      "correctAnswer": "They were proclaimed Canada's national colours by King George V in 1921",
+      "explanation": "Red and white were proclaimed Canada's national colors by King George V in 1921, and these colors were later used in the national flag adopted in 1965.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s27",
+      "question": "What image appears on the Canadian $10 bill?",
+      "options": [
+        "Sir John A. Macdonald",
+        "Queen Elizabeth II",
+        "The Library of Parliament",
+        "Viola Desmond"
+      ],
+      "correctAnswer": "Viola Desmond",
+      "explanation": "Viola Desmond, a civil rights activist who challenged racial segregation in Nova Scotia in 1946, appears on the Canadian $10 bill issued in 2018.",
+      "reference": "Discover Canada, p. 21",
+      "category": "symbols",
+      "difficulty": "medium"
+    },
+    {
+      "id": "s28",
+      "question": "What is the ceremonial mace in Parliament a symbol of?",
+      "options": [
+        "Military power",
+        "Royal authority",
+        "Provincial unity",
+        "Democratic governance"
+      ],
+      "correctAnswer": "Royal authority",
+      "explanation": "The ceremonial mace in Parliament is a symbol of royal authority. The House of Commons cannot legally meet unless the mace is present.",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s29",
+      "question": "Which of these buildings houses the Senate of Canada?",
+      "options": [
+        "The West Block",
+        "The East Block",
+        "The Centre Block",
+        "The Senate of Canada Building"
+      ],
+      "correctAnswer": "The Senate of Canada Building",
+      "explanation": "Since 2019, during Centre Block renovations, the Senate has been housed in the Senate of Canada Building (formerly the Government Conference Centre).",
+      "reference": "Discover Canada, p. 38",
+      "category": "symbols",
+      "difficulty": "hard"
+    },
+    {
+      "id": "s30",
+      "question": "Which landmark in Ottawa is a symbol of remembrance for fallen Canadian soldiers?",
+      "options": [
+        "Peace Tower",
+        "National War Memorial",
+        "Centennial Flame",
+        "Rideau Hall"
+      ],
+      "correctAnswer": "National War Memorial",
+      "explanation": "The National War Memorial in Ottawa is a cenotaph symbolizing the sacrifice of all Canadian Armed Forces personnel who have served Canada in time of war and lost their lives in service to their country.",
+      "reference": "Discover Canada, p. 21",
+      "category": "symbols",
+      "difficulty": "medium"
     }
   ]
 }
