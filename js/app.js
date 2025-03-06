@@ -25,12 +25,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         
         init: async function() {
+            console.log("Initializing application...");
+            
             // Load questions
             const result = await questionLoader.loadQuestions();
             if (result.error) {
                 alert('Error loading questions. Please try again later.');
                 return;
             }
+            
+            console.log(`Loaded ${result.totalQuestions} questions in ${result.categories.length} categories`);
             
             // Update stats on home page
             document.getElementById('total-questions').textContent = result.totalQuestions;
@@ -77,11 +81,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         initializeCategoryDropdown: function(categories) {
             const dropdown = document.getElementById('category');
             
+            // Clear existing options
+            dropdown.innerHTML = '<option value="all">All Categories</option>';
+            
             // Add options for each category
             categories.forEach(category => {
                 const option = document.createElement('option');
                 option.value = category;
-                option.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+                option.textContent = category.charAt(0).toUpperCase() + category.slice(1).replace('-', ' ');
                 dropdown.appendChild(option);
             });
             
@@ -150,8 +157,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         
         loadStudyQuestions: function() {
+            console.log(`Loading study questions for category: ${this.studyMode.currentCategory}`);
             const category = this.studyMode.currentCategory;
             this.studyMode.currentQuestions = questionLoader.getQuestionsByCategory(category);
+            
+            console.log(`Loaded ${this.studyMode.currentQuestions.length} study questions`);
+            
+            // Check if questions were loaded
+            if (this.studyMode.currentQuestions.length === 0) {
+                console.warn(`No questions found for category: ${category}. Using fallback.`);
+                
+                // Use fallback questions if no questions were loaded
+                this.studyMode.currentQuestions = questionLoader.getFallbackQuestions()
+                    .filter(q => category === 'all' || q.category === category);
+            }
+            
             this.studyMode.currentIndex = 0;
             this.studyMode.isFlipped = false;
             
@@ -170,8 +190,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             const question = currentQuestions[currentIndex];
             
-            // Update question text
-            document.getElementById('question-text').textContent = question.question;
+            // Update question ID and text
+            document.getElementById('question-text').textContent = `[${question.id}] ${question.question}`;
             
             // Update answer and explanation
             document.getElementById('answer-text').textContent = question.correctAnswer;
@@ -227,10 +247,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         startTest: function() {
             // Get options
             const questionCount = parseInt(document.getElementById('question-count').value);
+            const category = document.getElementById('test-category')?.value || 'all';
             this.testMode.timeLimit = parseInt(document.getElementById('test-time').value);
             
             // Get random questions
-            this.testMode.questions = questionLoader.getRandomQuestions(questionCount);
+            this.testMode.questions = questionLoader.getRandomQuestions(questionCount, category);
             
             // Reset test state
             this.testMode.answers = new Array(this.testMode.questions.length).fill(null);
@@ -240,7 +261,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Update UI
             document.querySelector('.test-start').style.display = 'none';
             document.getElementById('test-area').classList.remove('hidden');
-            document.getElementById('total-test-questions').textContent = questionCount;
+            document.getElementById('total-test-questions').textContent = this.testMode.questions.length;
             
             // Start timer
             this.startTimer();

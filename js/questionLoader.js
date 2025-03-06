@@ -18,9 +18,16 @@ class QuestionLoader {
             const index = await response.json();
             const questionFiles = index.files;
 
+            console.log(`Found ${questionFiles.length} question files to load`);
+            
+            // Clear questions array before loading
+            this.questions = [];
+            
             // Load each question file
             const promises = questionFiles.map(file => this.loadQuestionFile(`questions/${file}`));
             await Promise.all(promises);
+            
+            console.log(`Successfully loaded ${this.questions.length} total questions`);
             
             // Process all loaded questions
             this.processQuestions();
@@ -40,6 +47,7 @@ class QuestionLoader {
 
     async loadQuestionFile(path) {
         try {
+            console.log(`Loading questions from: ${path}`);
             const response = await fetch(path);
             if (!response.ok) {
                 throw new Error(`Failed to load question file: ${path}`);
@@ -52,10 +60,13 @@ class QuestionLoader {
                 throw new Error(`Invalid question file format: ${path}`);
             }
             
+            console.log(`Found ${data.questions.length} questions in ${path}`);
+            
             // Add all questions from this file
             this.questions = [...this.questions, ...data.questions];
         } catch (error) {
             console.error(`Error loading question file ${path}:`, error);
+            throw error; // Re-throw to be caught in loadQuestions()
         }
     }
 
@@ -166,18 +177,38 @@ class QuestionLoader {
                 this.categorizedQuestions[question.category].push(question);
             }
         });
+        
+        // Log category counts for debugging
+        console.log("Categories processed:");
+        for (const category of this.categories) {
+            const count = this.categorizedQuestions[category] ? this.categorizedQuestions[category].length : 0;
+            console.log(`- ${category}: ${count} questions`);
+        }
     }
 
     getQuestionsByCategory(category) {
         if (category === 'all') {
             return this.questions;
         }
-        return this.categorizedQuestions[category] || [];
+        
+        const questions = this.categorizedQuestions[category] || [];
+        console.log(`Returning ${questions.length} questions for category: ${category}`);
+        return questions;
     }
 
-    getRandomQuestions(count) {
-        const shuffled = [...this.questions].sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, Math.min(count, this.questions.length));
+    getRandomQuestions(count, category = 'all') {
+        let pool = category === 'all' ? this.questions : this.categorizedQuestions[category] || [];
+        
+        if (pool.length === 0) {
+            console.warn(`No questions found for category: ${category}`);
+            return [];
+        }
+        
+        // Shuffle the questions
+        const shuffled = [...pool].sort(() => 0.5 - Math.random());
+        
+        // Return the requested number of questions, or all if there aren't enough
+        return shuffled.slice(0, Math.min(count, pool.length));
     }
 }
 
