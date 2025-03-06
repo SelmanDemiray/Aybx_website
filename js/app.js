@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Initialize the app
     const app = {
         currentPage: 'home',
+        mobileMenuOpen: false,
         studyMode: {
             currentCategory: 'all',
             currentQuestions: [],
@@ -31,6 +32,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Initialize theme
             this.initTheme();
             
+            // Initialize mobile menu
+            this.initMobileMenu();
+            
             // Load questions
             const result = await questionLoader.loadQuestions();
             if (result.error) {
@@ -55,6 +59,51 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Set up event listeners
             this.setupEventListeners();
+        },
+        
+        // Initialize mobile menu functionality
+        initMobileMenu: function() {
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            const nav = document.getElementById('main-nav');
+            const menuOverlay = document.getElementById('menu-overlay');
+            
+            mobileMenuToggle.addEventListener('click', () => {
+                this.toggleMobileMenu();
+            });
+            
+            menuOverlay.addEventListener('click', () => {
+                this.toggleMobileMenu();
+            });
+            
+            // Close menu when a navigation item is clicked
+            const navLinks = document.querySelectorAll('#main-nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (this.mobileMenuOpen) {
+                        this.toggleMobileMenu();
+                    }
+                });
+            });
+        },
+        
+        toggleMobileMenu: function() {
+            const nav = document.getElementById('main-nav');
+            const menuOverlay = document.getElementById('menu-overlay');
+            const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+            
+            if (this.mobileMenuOpen) {
+                // Close menu
+                nav.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            } else {
+                // Open menu
+                nav.classList.add('active');
+                menuOverlay.classList.add('active');
+                mobileMenuToggle.innerHTML = '<i class="fas fa-times"></i>';
+            }
+            
+            this.mobileMenuOpen = !this.mobileMenuOpen;
         },
         
         initTheme: function() {
@@ -235,7 +284,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Update reference if available
             const reference = document.getElementById('reference-text');
             if (question.reference) {
-                reference.textContent = `Reference: ${question.reference}`;
+                let referenceText = question.reference;
+                // Apply correction function if available
+                if (typeof correctReference === 'function') {
+                    referenceText = correctReference(referenceText);
+                }
+                reference.textContent = `Source: ${referenceText}`;
                 reference.style.display = 'block';
             } else {
                 reference.style.display = 'none';
@@ -262,6 +316,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             } else {
                 flashcard.classList.remove('flipped');
                 document.getElementById('flip-btn').textContent = 'Show Answer';
+            }
+            
+            // Add better touch feedback
+            if ('vibrate' in navigator) {
+                navigator.vibrate(20);
             }
         },
         
@@ -343,6 +402,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             options.forEach((option, i) => {
                 if (i === index) {
                     option.classList.add('selected');
+                    
+                    // Add better touch feedback
+                    if ('vibrate' in navigator) {
+                        navigator.vibrate(20);
+                    }
                 } else {
                     option.classList.remove('selected');
                 }
@@ -447,6 +511,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const userAnswerText = userAnswer !== null ? question.options[userAnswer] : 'Not answered';
                 const isCorrect = userAnswer !== null && question.options[userAnswer] === question.correctAnswer;
                 
+                let referenceText = question.reference || '';
+                // Apply correction function if available
+                if (typeof correctReference === 'function' && referenceText) {
+                    referenceText = correctReference(referenceText);
+                }
+                
                 const questionElement = document.createElement('div');
                 questionElement.className = `question-result ${isCorrect ? 'correct' : 'incorrect'}`;
                 questionElement.innerHTML = `
@@ -454,7 +524,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p><strong>Your answer:</strong> ${userAnswerText}</p>
                     <p><strong>Correct answer:</strong> ${question.correctAnswer}</p>
                     ${question.explanation ? `<p><strong>Explanation:</strong> ${question.explanation}</p>` : ''}
-                    ${question.reference ? `<p><strong>Reference:</strong> ${question.reference}</p>` : ''}
+                    ${referenceText ? `<p><strong>Reference:</strong> ${referenceText}</p>` : ''}
                 `;
                 resultsDetails.appendChild(questionElement);
             });
@@ -500,6 +570,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await app.init();
 
 });
+
 function showAnswer(question) {
     // Existing code that shows the answer...
     

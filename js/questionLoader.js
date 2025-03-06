@@ -62,8 +62,19 @@ class QuestionLoader {
             
             console.log(`Found ${data.questions.length} questions in ${path}`);
             
+            // Process references if correction function exists
+            const processedQuestions = data.questions.map(question => {
+                if (typeof correctReference === 'function' && question.reference) {
+                    return {
+                        ...question,
+                        reference: correctReference(question.reference)
+                    };
+                }
+                return question;
+            });
+            
             // Add all questions from this file
-            this.questions = [...this.questions, ...data.questions];
+            this.questions = [...this.questions, ...processedQuestions];
         } catch (error) {
             console.error(`Error loading question file ${path}:`, error);
             throw error; // Re-throw to be caught in loadQuestions()
@@ -86,7 +97,7 @@ class QuestionLoader {
     }
 
     getFallbackQuestions() {
-        return [
+        const questions = [
             {
                 "id": "h1",
                 "question": "Who were the first people to live in Canada?",
@@ -100,7 +111,7 @@ class QuestionLoader {
                 "explanation": "Indigenous peoples were the first people to live in Canada, arriving thousands of years before European explorers.",
                 "category": "history",
                 "difficulty": "easy",
-                "reference": "Discover Canada, p. 10, 'Aboriginal Peoples' section"
+                "reference": "Discover Canada, p. 10, 'Aboriginal Peoples'"
             },
             {
                 "id": "g1",
@@ -115,7 +126,7 @@ class QuestionLoader {
                 "explanation": "Canada is a constitutional monarchy, a parliamentary democracy, and a federal state.",
                 "category": "government",
                 "difficulty": "easy",
-                "reference": "Discover Canada, p. 8, 'How Canadians Govern Themselves' section"
+                "reference": "Discover Canada, p. 8, 'How Canadians Govern Themselves'"
             },
             {
                 "id": "r1",
@@ -130,7 +141,7 @@ class QuestionLoader {
                 "explanation": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms of all Canadians.",
                 "category": "rights-responsibilities",
                 "difficulty": "easy",
-                "reference": "Discover Canada, p. 8, 'Rights and Responsibilities of Citizenship' section"
+                "reference": "Discover Canada, p. 8, 'Rights and Responsibilities of Citizenship'"
             },
             {
                 "id": "geo1",
@@ -145,7 +156,7 @@ class QuestionLoader {
                 "explanation": "Canada is bordered by the Pacific Ocean on the west.",
                 "category": "geography",
                 "difficulty": "easy",
-                "reference": "Discover Canada, p. 38, 'Geography' section"
+                "reference": "Discover Canada, p. 10, 'Who We Are'"
             },
             {
                 "id": "sym1",
@@ -160,9 +171,24 @@ class QuestionLoader {
                 "explanation": "The Canadian flag features a stylized red maple leaf on a white square with red bars on either side.",
                 "category": "symbols",
                 "difficulty": "easy",
-                "reference": "Discover Canada, p. 42, 'National Symbols' section"
+                "reference": "Discover Canada, p. 38, 'Symbols of Canada'"
             }
         ];
+        
+        // Apply reference corrections if available
+        if (typeof correctReference === 'function') {
+            return questions.map(question => {
+                if (question.reference) {
+                    return {
+                        ...question,
+                        reference: correctReference(question.reference)
+                    };
+                }
+                return question;
+            });
+        }
+        
+        return questions;
     }
 
     processQuestions() {

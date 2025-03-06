@@ -2,7 +2,16 @@
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG7KSPBY9E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VG7KSPBY9E');
+    </script>
     <title>Canadian Citizenship Test Study Guide</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -36,7 +45,11 @@
                 <img src="images/canada-flag.png" alt="Canadian Flag" class="flag-icon">
                 <h1>Canadian Citizenship Test Study Guide</h1>
             </div>
-            <nav>
+            <!-- New hamburger menu toggle -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="main-nav">
                 <ul>
                     <li><a href="#" class="active" data-page="home">Home</a></li>
                     <li><a href="#" data-page="study">Study</a></li>
@@ -54,6 +67,9 @@
             </nav>
         </div>
     </header>
+
+    <!-- Overlay for mobile menu -->
+    <div class="menu-overlay" id="menu-overlay"></div>
 
     <main>
         <div class="container">
@@ -213,6 +229,7 @@
         </div>
     </div>
 
+    <script src="js/referenceMap.js"></script>
     <script src="js/questionLoader.js"></script>
     <script src="js/app.js"></script>
 </body>
