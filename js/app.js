@@ -454,6 +454,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p><strong>Your answer:</strong> ${userAnswerText}</p>
                     <p><strong>Correct answer:</strong> ${question.correctAnswer}</p>
                     ${question.explanation ? `<p><strong>Explanation:</strong> ${question.explanation}</p>` : ''}
+                    ${question.reference ? `<p><strong>Reference:</strong> ${question.reference}</p>` : ''}
                 `;
                 resultsDetails.appendChild(questionElement);
             });
@@ -497,4 +498,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Initialize the app
     await app.init();
+
 });
+function showAnswer(question) {
+    // Existing code that shows the answer...
+    
+    // Add the reference text if available
+    const referenceText = document.getElementById('reference-text');
+    if (question.reference) {
+        referenceText.textContent = `Source: ${question.reference}`;
+        referenceText.style.display = 'block';
+    } else {
+        referenceText.style.display = 'none';
+    }
+}

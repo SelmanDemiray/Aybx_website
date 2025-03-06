@@ -99,7 +99,8 @@ class QuestionLoader {
                 "correctAnswer": "Indigenous peoples",
                 "explanation": "Indigenous peoples were the first people to live in Canada, arriving thousands of years before European explorers.",
                 "category": "history",
-                "difficulty": "easy"
+                "difficulty": "easy",
+                "reference": "Discover Canada, p. 10, 'Aboriginal Peoples' section"
             },
             {
                 "id": "g1",
@@ -113,7 +114,8 @@ class QuestionLoader {
                 "correctAnswer": "Constitutional monarchy",
                 "explanation": "Canada is a constitutional monarchy, a parliamentary democracy, and a federal state.",
                 "category": "government",
-                "difficulty": "easy"
+                "difficulty": "easy",
+                "reference": "Discover Canada, p. 8, 'How Canadians Govern Themselves' section"
             },
             {
                 "id": "r1",
@@ -127,7 +129,8 @@ class QuestionLoader {
                 "correctAnswer": "The Canadian Charter of Rights and Freedoms",
                 "explanation": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms of all Canadians.",
                 "category": "rights-responsibilities",
-                "difficulty": "easy"
+                "difficulty": "easy",
+                "reference": "Discover Canada, p. 8, 'Rights and Responsibilities of Citizenship' section"
             },
             {
                 "id": "geo1",
@@ -141,7 +144,8 @@ class QuestionLoader {
                 "correctAnswer": "Pacific Ocean",
                 "explanation": "Canada is bordered by the Pacific Ocean on the west.",
                 "category": "geography",
-                "difficulty": "easy"
+                "difficulty": "easy",
+                "reference": "Discover Canada, p. 38, 'Geography' section"
             },
             {
                 "id": "sym1",
@@ -155,7 +159,8 @@ class QuestionLoader {
                 "correctAnswer": "A maple leaf",
                 "explanation": "The Canadian flag features a stylized red maple leaf on a white square with red bars on either side.",
                 "category": "symbols",
-                "difficulty": "easy"
+                "difficulty": "easy",
+                "reference": "Discover Canada, p. 42, 'National Symbols' section"
             }
         ];
     }
