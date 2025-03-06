@@ -409,18 +409,47 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Add details for each question
             this.testMode.questions.forEach((question, index) => {
                 const userAnswer = this.testMode.answers[index];
+                const userAnswerText = userAnswer !== null ? question.options[userAnswer] : 'Not answered';
                 const isCorrect = userAnswer !== null && question.options[userAnswer] === question.correctAnswer;
                 
                 const questionElement = document.createElement('div');
                 questionElement.className = `question-result ${isCorrect ? 'correct' : 'incorrect'}`;
                 questionElement.innerHTML = `
-                    <p><strong>Q${index + 1}:</strong> ${question.question}</p>
-                    <p><strong>Your answer:</strong> ${userAnswer !== null ? question.options[userAnswer] : 'Not answered'}</p>
+                    <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
+                    <p><strong>Your answer:</strong> ${userAnswerText}</p>
                     <p><strong>Correct answer:</strong> ${question.correctAnswer}</p>
                     ${question.explanation ? `<p><strong>Explanation:</strong> ${question.explanation}</p>` : ''}
                 `;
                 resultsDetails.appendChild(questionElement);
             });
+            
+            // Add footer with additional buttons
+            const modalFooter = document.createElement('div');
+            modalFooter.className = 'modal-footer';
+            
+            const closeButton = document.createElement('button');
+            closeButton.className = 'btn secondary';
+            closeButton.textContent = 'Close';
+            closeButton.addEventListener('click', () => {
+                resultsModal.style.display = 'none';
+            });
+            
+            const reviewButton = document.createElement('button');
+            reviewButton.className = 'btn primary';
+            reviewButton.textContent = 'Study More';
+            reviewButton.addEventListener('click', () => {
+                resultsModal.style.display = 'none';
+                this.navigateTo('study');
+            });
+            
+            modalFooter.appendChild(closeButton);
+            modalFooter.appendChild(reviewButton);
+            
+            // Add footer to results
+            resultsDetails.appendChild(modalFooter);
+            
+            // Ensure the modal is scrolled to the top
+            resultsModal.scrollTop = 0;
             
             // Show modal
             resultsModal.style.display = 'block';
