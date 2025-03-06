@@ -1,4 +1,5 @@
 :root {
+    /* Light theme (default) */
     --primary-color: #e41e2b;
     --secondary-color: #004d8e;
     --background-color: #f8f9fa;
@@ -8,12 +9,32 @@
     --success-color: #28a745;
     --warning-color: #ffc107;
     --error-color: #dc3545;
+    --card-bg: #ffffff;
+    --header-bg: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme variables */
+[data-theme="dark"] {
+    --primary-color: #ff3341;
+    --secondary-color: #4a9fff;
+    --background-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --light-gray: #333333;
+    --border-color: #555555;
+    --success-color: #39c45a;
+    --warning-color: #ffdd33;
+    --error-color: #ff4c5a;
+    --card-bg: #2d2d2d;
+    --header-bg: #2d2d2d;
+    --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
@@ -31,8 +52,8 @@ body {
 
 /* Header */
 header {
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--header-bg);
+    box-shadow: 0 2px 10px var(--shadow-color);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -124,10 +145,10 @@ main {
 }
 
 .stat-box {
-    background-color: white;
+    background-color: var(--card-bg);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px var(--shadow-color);
     width: 150px;
     text-align: center;
 }
@@ -215,7 +236,7 @@ main {
     align-items: center;
     padding: 30px;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--card-bg);
 }
 
 .flashcard-front {
@@ -311,10 +332,10 @@ main {
 }
 
 .test-question {
-    background-color: white;
+    background-color: var(--card-bg);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px var(--shadow-color);
     margin-bottom: 20px;
 }
 
@@ -354,9 +375,9 @@ main {
 }
 
 .resource-card {
-    background-color: white;
+    background-color: var(--card-bg);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px var(--shadow-color);
     padding: 20px;
     text-align: center;
 }
@@ -384,7 +405,7 @@ main {
 }
 
 .modal-content {
-    background-color: white;
+    background-color: var(--card-bg);
     margin: 5vh auto;
     padding: 30px;
     border-radius: 10px;
@@ -392,6 +413,7 @@ main {
     max-height: 90vh; /* Limit to 90% of viewport height */
     position: relative;
     overflow-y: auto; /* Make the content area scrollable */
+    color: var(--text-color);
 }
 
 .close {
@@ -424,12 +446,12 @@ main {
 }
 
 .question-result {
-    background-color: white;
+    background-color: var(--card-bg);
     border-left: 5px solid transparent;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px var(--shadow-color);
 }
 
 .question-result.correct {
@@ -448,6 +470,64 @@ main {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+/* Theme toggle styles */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.theme-toggle-icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.theme-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.theme-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.theme-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.theme-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+input:checked + .theme-toggle-slider {
+    background-color: var(--secondary-color);
+}
+
+input:checked + .theme-toggle-slider:before {
+    transform: translateX(20px);
 }
 
 /* Responsive tweaks for the modal */

@@ -23,9 +23,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             questionsAnswered: 0,
             correctAnswers: 0
         },
+        theme: 'light', // Default theme
         
         init: async function() {
             console.log("Initializing application...");
+            
+            // Initialize theme
+            this.initTheme();
             
             // Load questions
             const result = await questionLoader.loadQuestions();
@@ -51,6 +55,34 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Set up event listeners
             this.setupEventListeners();
+        },
+        
+        initTheme: function() {
+            // Check if user has a saved preference
+            const savedTheme = localStorage.getItem('canadaTestTheme');
+            if (savedTheme) {
+                this.theme = savedTheme;
+                document.documentElement.setAttribute('data-theme', savedTheme);
+                if (savedTheme === 'dark') {
+                    document.getElementById('theme-toggle-input').checked = true;
+                }
+            } else {
+                // Check for system preference
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    this.theme = 'dark';
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                    document.getElementById('theme-toggle-input').checked = true;
+                }
+            }
+        },
+        
+        toggleTheme: function() {
+            // Toggle theme
+            this.theme = this.theme === 'light' ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', this.theme);
+            
+            // Save preference
+            localStorage.setItem('canadaTestTheme', this.theme);
         },
         
         loadUserStats: function() {
@@ -129,6 +161,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         
         setupEventListeners: function() {
+            // Theme toggle
+            document.getElementById('theme-toggle-input').addEventListener('change', () => this.toggleTheme());
+            
             // Study mode controls
             document.getElementById('flip-btn').addEventListener('click', () => this.flipCard());
             document.getElementById('prev-btn').addEventListener('click', () => this.prevQuestion());
@@ -190,8 +225,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             const question = currentQuestions[currentIndex];
             
-            // Update question ID and text
-            document.getElementById('question-text').textContent = `[${question.id}] ${question.question}`;
+            // Update question text without showing the ID
+            document.getElementById('question-text').textContent = question.question;
             
             // Update answer and explanation
             document.getElementById('answer-text').textContent = question.correctAnswer;
