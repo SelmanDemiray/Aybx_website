@@ -67,7 +67,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             const nav = document.getElementById('main-nav');
             const menuOverlay = document.getElementById('menu-overlay');
             
-            mobileMenuToggle.addEventListener('click', () => {
+            // Use touchstart and click for better iOS compatibility
+            mobileMenuToggle.addEventListener('touchstart', (e) => {
+                e.preventDefault(); // Prevent ghost clicks
+                this.toggleMobileMenu();
+            });
+            
+            mobileMenuToggle.addEventListener('click', (e) => {
+                this.toggleMobileMenu();
+            });
+            
+            menuOverlay.addEventListener('touchstart', (e) => {
+                e.preventDefault(); // Prevent ghost clicks
                 this.toggleMobileMenu();
             });
             
@@ -75,14 +86,42 @@ document.addEventListener('DOMContentLoaded', async () => {
                 this.toggleMobileMenu();
             });
             
-            // Close menu when a navigation item is clicked
+            // Close menu when a navigation item is clicked - improved for iOS
             const navLinks = document.querySelectorAll('#main-nav a');
             navLinks.forEach(link => {
-                link.addEventListener('click', () => {
+                // Use touchend for better iOS compatibility
+                link.addEventListener('touchend', (e) => {
+                    e.preventDefault(); // Prevent default behavior
+                    const page = link.getAttribute('data-page');
+                    if (page) {
+                        this.navigateTo(page);
+                    }
+                    if (this.mobileMenuOpen) {
+                        // Add small delay to make sure the navigation happens
+                        setTimeout(() => {
+                            this.toggleMobileMenu();
+                        }, 50);
+                    }
+                });
+                
+                // Keep click event for non-touch devices
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const page = link.getAttribute('data-page');
+                    if (page) {
+                        this.navigateTo(page);
+                    }
                     if (this.mobileMenuOpen) {
                         this.toggleMobileMenu();
                     }
                 });
+            });
+            
+            // Improved theme toggle for iOS
+            const themeToggle = document.getElementById('theme-toggle-input');
+            themeToggle.addEventListener('touchend', (e) => {
+                e.stopPropagation(); // Stop event from bubbling up
+                this.toggleTheme();
             });
         },
         
@@ -91,19 +130,27 @@ document.addEventListener('DOMContentLoaded', async () => {
             const menuOverlay = document.getElementById('menu-overlay');
             const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
             
+            // Add some debugging for iOS
+            console.log("Toggle menu called, current state:", this.mobileMenuOpen);
+            
             if (this.mobileMenuOpen) {
                 // Close menu
                 nav.classList.remove('active');
                 menuOverlay.classList.remove('active');
                 mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+                // Enable body scrolling
+                document.body.style.overflow = '';
             } else {
                 // Open menu
                 nav.classList.add('active');
                 menuOverlay.classList.add('active');
                 mobileMenuToggle.innerHTML = '<i class="fas fa-times"></i>';
+                // Disable body scrolling to prevent background scrolling
+                document.body.style.overflow = 'hidden';
             }
             
             this.mobileMenuOpen = !this.mobileMenuOpen;
+            console.log("Menu state after toggle:", this.mobileMenuOpen);
         },
         
         initTheme: function() {
@@ -197,53 +244,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('[data-page]').forEach(link => link.classList.remove('active'));
             
-            // Add active class to current page and corresponding nav links
-            document.getElementById(page).classList.add('active');
-            document.querySelectorAll(`[data-page="${page}"]`).forEach(link => link.classList.add('active'));
-            
-            this.currentPage = page;
-            
-            // Initialize page-specific content
-            if (page === 'study' && this.studyMode.currentQuestions.length === 0) {
-                this.loadStudyQuestions();
-            }
-        },
-        
-        setupEventListeners: function() {
-            // Theme toggle
-            document.getElementById('theme-toggle-input').addEventListener('change', () => this.toggleTheme());
-            
-            // Study mode controls
-            document.getElementById('flip-btn').addEventListener('click', () => this.flipCard());
-            document.getElementById('prev-btn').addEventListener('click', () => this.prevQuestion());
-            document.getElementById('next-btn').addEventListener('click', () => this.nextQuestion());
-            
-            // Test mode controls
-            document.getElementById('start-test').addEventListener('click', () => this.startTest());
-            document.getElementById('prev-test-btn').addEventListener('click', () => this.prevTestQuestion());
-            document.getElementById('next-test-btn').addEventListener('click', () => this.nextTestQuestion());
-            document.getElementById('submit-test').addEventListener('click', () => this.submitTest());
-            
-            // Modal controls
-            document.querySelector('.close').addEventListener('click', () => {
-                document.getElementById('results-modal').style.display = 'none';
-            });
-            
-            document.getElementById('review-test').addEventListener('click', () => {
-                document.getElementById('results-modal').style.display = 'none';
-                // Future functionality: implement test review
-            });
-            
-            // Test options
-            document.getElementById('test-time').addEventListener('change', (e) => {
-                this.testMode.timeLimit = parseInt(e.target.value);
-            });
-        },
-        
-        loadStudyQuestions: function() {
-            console.log(`Loading study questions for category: ${this.studyMode.currentCategory}`);
-            const category = this.studyMode.currentCategory;
-            this.studyMode.currentQuestions = questionLoader.getQuestionsByCategory(category);
             
             console.log(`Loaded ${this.studyMode.currentQuestions.length} study questions`);
             

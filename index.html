@@ -37,6 +37,9 @@
             });
         }
     </script>
+    <!-- Add iOS specific meta tags for better mobile experience -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
     <header>
@@ -46,19 +49,19 @@
                 <h1>Canadian Citizenship Test Study Guide</h1>
             </div>
             <!-- New hamburger menu toggle -->
-            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" role="button">
                 <i class="fas fa-bars"></i>
             </button>
-            <nav id="main-nav">
+            <nav id="main-nav" role="navigation">
                 <ul>
-                    <li><a href="#" class="active" data-page="home">Home</a></li>
-                    <li><a href="#" data-page="study">Study</a></li>
-                    <li><a href="#" data-page="test">Practice Test</a></li>
-                    <li><a href="#" data-page="resources">Resources</a></li>
+                    <li><a href="#" class="active" data-page="home" role="button">Home</a></li>
+                    <li><a href="#" data-page="study" role="button">Study</a></li>
+                    <li><a href="#" data-page="test" role="button">Practice Test</a></li>
+                    <li><a href="#" data-page="resources" role="button">Resources</a></li>
                     <li class="theme-toggle">
                         <span class="theme-toggle-icon">☀️</span>
                         <label class="theme-toggle-switch">
-                            <input type="checkbox" id="theme-toggle-input">
+                            <input type="checkbox" id="theme-toggle-input" role="switch" aria-label="Toggle dark mode">
                             <span class="theme-toggle-slider"></span>
                         </label>
                         <span class="theme-toggle-icon">🌙</span>
@@ -69,7 +72,7 @@
     </header>
 
     <!-- Overlay for mobile menu -->
-    <div class="menu-overlay" id="menu-overlay"></div>
+    <div class="menu-overlay" id="menu-overlay" role="presentation" aria-hidden="true"></div>
 
     <main>
         <div class="container">

@@ -90,6 +90,8 @@ header .container {
     color: var(--text-color);
     cursor: pointer;
     padding: 10px;
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
+    touch-action: manipulation; /* Optimize for touch */
 }
 
 nav ul {
@@ -689,6 +691,116 @@ footer {
         bottom: 0;
         background-color: rgba(0,0,0,0.5);
         z-index: 999;
+    }
+    
+    .menu-overlay.active {
+        display: block;
+    }
+    
+    /* Fix z-index stacking */
+    header {
+        z-index: 1002; /* Ensure header is above the overlay */
+    }
+    
+    /* Fix mobile menu toggle */
+    .mobile-menu-toggle {
+        display: block;
+        z-index: 1003; /* Ensure toggle is above everything */
+        position: relative;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: var(--card-bg);
+        box-shadow: -5px 0 15px var(--shadow-color);
+        transition: right 0.3s ease;
+        z-index: 1002; /* Keep above overlay but below toggle */
+        padding-top: 60px;
+        overflow-y: auto; /* Enable scrolling if needed */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
+    
+    nav.active {
+        right: 0;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    /* Fix theme toggle in mobile menu */
+    .theme-toggle {
+        margin: 20px 0;
+        justify-content: center;
+        width: 100%;
+        padding: 15px 0;
+        z-index: 2000; /* Ensure it's clickable */
+        position: relative;
+    }
+    
+    .theme-toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 50px; /* Wider for better touch target */
+        height: 24px; /* Taller for better touch target */
+    }
+    
+    .theme-toggle-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        border-radius: 24px;
+        transition: .4s;
+    }
+    
+    .theme-toggle-slider:before {
+        position: absolute;
+        content: "";
+        height: 18px; /* Larger handle */
+        width: 18px; /* Larger handle */
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        border-radius: 50%;
+        transition: .4s;
+    }
+    
+    /* Fix overlay for iOS */
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1001;
+        -webkit-tap-highlight-color: transparent;
     }
     
     .menu-overlay.active {
