@@ -74,6 +74,531 @@
       "reference": "Discover Canada, p. 34",
       "category": "government",
       "difficulty": "medium"
+    },
+    {
+      "id": "g6",
+      "question": "How are Senators chosen?",
+      "options": [
+        "They are elected by Canadians",
+        "They are appointed by the Prime Minister",
+        "They are appointed by the Governor General on the advice of the Prime Minister",
+        "They are selected by provincial legislatures"
+      ],
+      "correctAnswer": "They are appointed by the Governor General on the advice of the Prime Minister",
+      "explanation": "Senators are appointed by the Governor General on the advice of the Prime Minister. They represent provinces and territories in the Senate.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g7",
+      "question": "What is the maximum time allowed between federal elections in Canada?",
+      "options": [
+        "3 years",
+        "4 years",
+        "5 years",
+        "6 years"
+      ],
+      "correctAnswer": "5 years",
+      "explanation": "Under the Constitution, federal elections must be held at least once every 5 years, though they are typically held every 4 years.",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g8",
+      "question": "What is the role of the opposition in Parliament?",
+      "options": [
+        "To block all government legislation",
+        "To question the government and hold it accountable",
+        "To appoint judges to the Supreme Court",
+        "To manage provincial affairs"
+      ],
+      "correctAnswer": "To question the government and hold it accountable",
+      "explanation": "The Official Opposition and other opposition parties question government actions, propose amendments to bills, and offer alternatives to government proposals.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g9",
+      "question": "How is the Prime Minister chosen?",
+      "options": [
+        "Direct election by Canadian citizens",
+        "Appointment by the Governor General",
+        "Usually the leader of the party with the most seats in the House of Commons",
+        "Selection by the Senate"
+      ],
+      "correctAnswer": "Usually the leader of the party with the most seats in the House of Commons",
+      "explanation": "The Prime Minister is usually the leader of the political party with the most seats in the House of Commons.",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g10",
+      "question": "What is the name of the process for changing the Canadian Constitution?",
+      "options": [
+        "Legislative override",
+        "Constitutional amendment",
+        "Royal Proclamation",
+        "Federal-Provincial Accord"
+      ],
+      "correctAnswer": "Constitutional amendment",
+      "explanation": "The process for changing the Constitution is called a constitutional amendment. Major changes require the agreement of the federal government and at least seven provinces representing at least 50% of Canada's population.",
+      "reference": "Discover Canada, p. 34",
+      "category": "government",
+      "difficulty": "hard"
+    },
+    {
+      "id": "g11",
+      "question": "What document officially established Canada as a country in 1867?",
+      "options": [
+        "The Charter of Rights and Freedoms",
+        "The British North America Act",
+        "The Constitution Act, 1982",
+        "The Declaration of Independence"
+      ],
+      "correctAnswer": "The British North America Act",
+      "explanation": "The British North America Act (now known as the Constitution Act, 1867) established the Dominion of Canada on July 1, 1867.",
+      "reference": "Discover Canada, p. 19",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g12",
+      "question": "What is a 'riding'?",
+      "options": [
+        "A ceremonial parade",
+        "An electoral district",
+        "A government committee",
+        "A type of provincial tax"
+      ],
+      "correctAnswer": "An electoral district",
+      "explanation": "A riding (or electoral district) is a geographical area represented by a Member of Parliament (MP) in the House of Commons.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g13",
+      "question": "What is the 'Speech from the Throne'?",
+      "options": [
+        "A formal address by the Prime Minister",
+        "A speech given by the King or Queen when visiting Canada",
+        "A statement that outlines the government's plans for the parliamentary session",
+        "The final speech given by a Prime Minister before leaving office"
+      ],
+      "correctAnswer": "A statement that outlines the government's plans for the parliamentary session",
+      "explanation": "The Speech from the Throne is read by the Governor General at the beginning of each new session of Parliament, outlining the government's agenda and priorities.",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g14",
+      "question": "How many seats are in the Senate of Canada?",
+      "options": [
+        "100",
+        "105",
+        "308",
+        "338"
+      ],
+      "correctAnswer": "105",
+      "explanation": "The Senate of Canada has 105 seats, with Senators appointed to represent provinces and territories according to a constitutional formula.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g15",
+      "question": "What is a 'minority government'?",
+      "options": [
+        "A government led by representatives of minority groups",
+        "A government with less than 50% of seats in the House of Commons",
+        "A government that focuses on minority rights",
+        "A government led by the smallest political party"
+      ],
+      "correctAnswer": "A government with less than 50% of seats in the House of Commons",
+      "explanation": "A minority government occurs when the party in power holds fewer than half of the seats in the House of Commons, requiring cooperation with other parties to pass legislation.",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g16",
+      "question": "What is a 'by-election'?",
+      "options": [
+        "A special election to fill a vacancy in Parliament between general elections",
+        "An election that occurs every 2 years",
+        "An election for provincial officials only",
+        "A non-binding referendum"
+      ],
+      "correctAnswer": "A special election to fill a vacancy in Parliament between general elections",
+      "explanation": "A by-election is held between general elections when a seat becomes vacant due to resignation, death, or other reasons.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g17",
+      "question": "Who is responsible for calling federal elections in Canada?",
+      "options": [
+        "The Prime Minister",
+        "The Governor General",
+        "The Chief Electoral Officer",
+        "The Speaker of the House"
+      ],
+      "correctAnswer": "The Governor General",
+      "explanation": "The Governor General dissolves Parliament and calls federal elections, typically on the advice of the Prime Minister.",
+      "reference": "Discover Canada, p. 31",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g18",
+      "question": "In Canada, what is a 'Cabinet Minister'?",
+      "options": [
+        "A senior advisor to the Governor General",
+        "An elected official who heads a government department",
+        "A member of the Senate leadership",
+        "The head of a provincial government"
+      ],
+      "correctAnswer": "An elected official who heads a government department",
+      "explanation": "A Cabinet Minister is a Member of Parliament (usually from the governing party) appointed by the Prime Minister to be responsible for a specific government department.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g19",
+      "question": "What is the role of the Speaker of the House of Commons?",
+      "options": [
+        "To lead the official opposition",
+        "To represent Canada abroad",
+        "To preside over debates in the House of Commons",
+        "To introduce all new legislation"
+      ],
+      "correctAnswer": "To preside over debates in the House of Commons",
+      "explanation": "The Speaker of the House of Commons presides over debates, maintains order, and ensures that parliamentary rules are followed. The Speaker remains politically neutral.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g20",
+      "question": "Which level of government is responsible for immigration?",
+      "options": [
+        "Municipal",
+        "Provincial/Territorial",
+        "Federal",
+        "Shared between federal and provincial"
+      ],
+      "correctAnswer": "Shared between federal and provincial",
+      "explanation": "Immigration is primarily a federal responsibility, but Quebec and some other provinces have agreements with the federal government giving them significant roles in selecting immigrants.",
+      "reference": "Discover Canada, p. 36",
+      "category": "government",
+      "difficulty": "hard"
+    },
+    {
+      "id": "g21",
+      "question": "What is the role of the Governor General of Canada?",
+      "options": [
+        "To run the government independently of the Prime Minister",
+        "To represent the monarch in Canada and perform ceremonial duties",
+        "To lead the opposition in Parliament",
+        "To manage international relations"
+      ],
+      "correctAnswer": "To represent the monarch in Canada and perform ceremonial duties",
+      "explanation": "The Governor General represents the monarch (King or Queen) in Canada, performs ceremonial duties, and has important constitutional responsibilities such as ensuring that Canada always has a Prime Minister.",
+      "reference": "Discover Canada, p. 30",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g22",
+      "question": "Who is eligible to vote in Canadian federal elections?",
+      "options": [
+        "All residents of Canada",
+        "Canadian citizens 18 years or older",
+        "Canadian citizens and permanent residents 18 years or older",
+        "Anyone who has lived in Canada for at least 3 years"
+      ],
+      "correctAnswer": "Canadian citizens 18 years or older",
+      "explanation": "Only Canadian citizens who are 18 years of age or older on election day are eligible to vote in federal elections.",
+      "reference": "Discover Canada, p. 36",
+      "category": "government",
+      "difficulty": "easy"
+    },
+    {
+      "id": "g23",
+      "question": "What is the role of the Auditor General of Canada?",
+      "options": [
+        "To review and approve all new legislation",
+        "To conduct financial audits of government operations and report to Parliament",
+        "To collect taxes from Canadians",
+        "To supervise the Bank of Canada"
+      ],
+      "correctAnswer": "To conduct financial audits of government operations and report to Parliament",
+      "explanation": "The Auditor General examines government spending and reports to Parliament on whether the government is spending money as authorized and getting value for money.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g24",
+      "question": "What is Question Period?",
+      "options": [
+        "A television show about Canadian politics",
+        "A time when MPs can ask questions of the government in the House of Commons",
+        "A final exam for potential Canadian citizens",
+        "A public opinion poll"
+      ],
+      "correctAnswer": "A time when MPs can ask questions of the government in the House of Commons",
+      "explanation": "Question Period is a daily session in the House of Commons where opposition MPs and government backbenchers can ask questions of government ministers, including the Prime Minister.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g25",
+      "question": "What happens after a bill passes third reading in the House of Commons?",
+      "options": [
+        "It becomes law immediately",
+        "It goes to the Senate for consideration",
+        "It goes to the provinces for approval",
+        "It is subject to a national referendum"
+      ],
+      "correctAnswer": "It goes to the Senate for consideration",
+      "explanation": "After passing third reading in the House of Commons, a bill goes to the Senate for consideration, where it follows a similar process of readings and committee study.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g26",
+      "question": "Which level of government is responsible for healthcare?",
+      "options": [
+        "Federal",
+        "Provincial/territorial",
+        "Municipal",
+        "Shared between federal and provincial"
+      ],
+      "correctAnswer": "Provincial/territorial",
+      "explanation": "Healthcare is primarily a provincial/territorial responsibility, although the federal government provides funding and establishes national standards through the Canada Health Act.",
+      "reference": "Discover Canada, p. 35",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g27",
+      "question": "What is the name for the Cabinet ministers and opposition leaders who are selected to debate major issues?",
+      "options": [
+        "Shadow Cabinet",
+        "Privy Council",
+        "Inner Cabinet",
+        "Front Benchers"
+      ],
+      "correctAnswer": "Front Benchers",
+      "explanation": "Front Benchers are Cabinet ministers and opposition leaders who sit in the front rows of the House of Commons and take a leading role in debates.",
+      "reference": "Discover Canada, p. 32",
+      "category": "government",
+      "difficulty": "hard"
+    },
+    {
+      "id": "g28",
+      "question": "What is the main role of the Bank of Canada?",
+      "options": [
+        "To collect taxes",
+        "To manage monetary policy and issue currency",
+        "To approve government spending",
+        "To regulate all banks and financial institutions"
+      ],
+      "correctAnswer": "To manage monetary policy and issue currency",
+      "explanation": "The Bank of Canada is responsible for managing monetary policy, issuing currency, and ensuring the stability of the financial system.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g29",
+      "question": "What is the role of the Privy Council Office?",
+      "options": [
+        "To advise the Prime Minister and Cabinet",
+        "To manage the federal budget",
+        "To oversee the military",
+        "To conduct foreign policy"
+      ],
+      "correctAnswer": "To advise the Prime Minister and Cabinet",
+      "explanation": "The Privy Council Office is the secretariat of the federal Cabinet and provides non-partisan advice and support to the Prime Minister and Cabinet.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g30",
+      "question": "What is the role of the Chief Electoral Officer?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To appoint judges to the Supreme Court",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To oversee the administration of federal elections",
+      "explanation": "The Chief Electoral Officer is responsible for overseeing the administration of federal elections and referendums, ensuring that they are conducted fairly and impartially.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g31",
+      "question": "What is the role of the Clerk of the Privy Council?",
+      "options": [
+        "To manage the federal budget",
+        "To oversee the military",
+        "To advise the Prime Minister and Cabinet",
+        "To conduct foreign policy"
+      ],
+      "correctAnswer": "To advise the Prime Minister and Cabinet",
+      "explanation": "The Clerk of the Privy Council is the head of the federal public service and provides non-partisan advice and support to the Prime Minister and Cabinet.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g32",
+      "question": "What is the role of the Commissioner of Official Languages?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To promote and protect linguistic duality in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To promote and protect linguistic duality in Canada",
+      "explanation": "The Commissioner of Official Languages promotes and protects linguistic duality in Canada, ensuring that federal institutions comply with the Official Languages Act.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g33",
+      "question": "What is the role of the Parliamentary Budget Officer?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To provide independent analysis of the federal budget and economic trends",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To provide independent analysis of the federal budget and economic trends",
+      "explanation": "The Parliamentary Budget Officer provides independent analysis of the federal budget and economic trends to Parliament, helping to ensure transparency and accountability in government finances.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g34",
+      "question": "What is the role of the Commissioner of the Environment and Sustainable Development?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To promote and protect environmental sustainability in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To promote and protect environmental sustainability in Canada",
+      "explanation": "The Commissioner of the Environment and Sustainable Development promotes and protects environmental sustainability in Canada, ensuring that federal institutions comply with environmental laws and policies.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g35",
+      "question": "What is the role of the Public Service Commission?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To promote and protect merit-based hiring in the federal public service",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To promote and protect merit-based hiring in the federal public service",
+      "explanation": "The Public Service Commission promotes and protects merit-based hiring in the federal public service, ensuring that appointments are based on qualifications and competence.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g36",
+      "question": "What is the role of the Canadian Human Rights Commission?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To promote and protect human rights in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To promote and protect human rights in Canada",
+      "explanation": "The Canadian Human Rights Commission promotes and protects human rights in Canada, ensuring that federal institutions comply with the Canadian Human Rights Act.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g37",
+      "question": "What is the role of the Canadian Radio-television and Telecommunications Commission (CRTC)?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To regulate and supervise broadcasting and telecommunications in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To regulate and supervise broadcasting and telecommunications in Canada",
+      "explanation": "The CRTC regulates and supervises broadcasting and telecommunications in Canada, ensuring that Canadians have access to a wide range of high-quality services.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g38",
+      "question": "What is the role of the Canadian Transportation Agency?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To regulate and supervise transportation in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To regulate and supervise transportation in Canada",
+      "explanation": "The Canadian Transportation Agency regulates and supervises transportation in Canada, ensuring that Canadians have access to safe, efficient, and reliable transportation services.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g39",
+      "question": "What is the role of the Canadian Nuclear Safety Commission?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To regulate and supervise nuclear safety in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To regulate and supervise nuclear safety in Canada",
+      "explanation": "The Canadian Nuclear Safety Commission regulates and supervises nuclear safety in Canada, ensuring that nuclear facilities and activities are safe and secure.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
+    },
+    {
+      "id": "g40",
+      "question": "What is the role of the Canadian Food Inspection Agency?",
+      "options": [
+        "To oversee the administration of federal elections",
+        "To regulate and supervise food safety in Canada",
+        "To manage the federal budget",
+        "To represent Canada abroad"
+      ],
+      "correctAnswer": "To regulate and supervise food safety in Canada",
+      "explanation": "The Canadian Food Inspection Agency regulates and supervises food safety in Canada, ensuring that Canadians have access to safe and high-quality food products.",
+      "reference": "Discover Canada, p. 33",
+      "category": "government",
+      "difficulty": "medium"
     }
   ]
 }

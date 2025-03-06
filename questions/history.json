@@ -74,6 +74,531 @@
       "reference": "Discover Canada, p. 21",
       "category": "history",
       "difficulty": "hard"
+    },
+    {
+      "id": "h6",
+      "question": "What was the name of the 1982 document that gave Canada full independence?",
+      "options": [
+        "The British North America Act",
+        "The Canada Act",
+        "The Declaration of Independence",
+        "The Treaty of Westminster"
+      ],
+      "correctAnswer": "The Canada Act",
+      "explanation": "The Canada Act 1982 was passed by the British Parliament, giving Canada full control over its Constitution and ending Britain's remaining authority.",
+      "reference": "Discover Canada, p. 23",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h7",
+      "question": "Who was Canada's first Prime Minister?",
+      "options": [
+        "John A. Macdonald",
+        "Louis Riel",
+        "Wilfrid Laurier",
+        "Pierre Trudeau"
+      ],
+      "correctAnswer": "John A. Macdonald",
+      "explanation": "Sir John Alexander Macdonald was Canada's first Prime Minister, serving from 1867-1873 and 1878-1891.",
+      "reference": "Discover Canada, p. 19",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h8",
+      "question": "What was the Quiet Revolution?",
+      "options": [
+        "The peaceful independence of Canada from Britain",
+        "A period of rapid change in Quebec during the 1960s",
+        "The gradual transition to bilingualism throughout Canada",
+        "The non-violent resistance against conscription"
+      ],
+      "correctAnswer": "A period of rapid change in Quebec during the 1960s",
+      "explanation": "The Quiet Revolution was a period of rapid change in Quebec in the 1960s that modernized the province and emphasized Quebec nationalism.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h9",
+      "question": "When did the Canadian Pacific Railway (CPR) become the first railway to connect Canada from coast to coast?",
+      "options": [
+        "1867",
+        "1885",
+        "1905",
+        "1927"
+      ],
+      "correctAnswer": "1885",
+      "explanation": "The Canadian Pacific Railway was completed in 1885, fulfilling a promise made to British Columbia when it joined Confederation.",
+      "reference": "Discover Canada, p. 20",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h10",
+      "question": "What significant event in Canadian history occurred at Vimy Ridge?",
+      "options": [
+        "The signing of Confederation",
+        "A major battle won by Canadians in World War I",
+        "The first meeting between Indigenous peoples and Europeans",
+        "The location where the Canadian Charter was signed"
+      ],
+      "correctAnswer": "A major battle won by Canadians in World War I",
+      "explanation": "The Battle of Vimy Ridge took place in April 1917 during World War I. It was a significant victory for Canadian forces and is considered a defining moment in Canadian national identity.",
+      "reference": "Discover Canada, p. 22",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h11",
+      "question": "When did the War of 1812 take place?",
+      "options": [
+        "1800-1810",
+        "1812-1815",
+        "1812-1820",
+        "1820-1825"
+      ],
+      "correctAnswer": "1812-1815",
+      "explanation": "The War of 1812 lasted from June 1812 to February 1815. It was fought between the United States and Great Britain, with British North America (now Canada) being a major theater of war.",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h12",
+      "question": "Who was Louis Riel?",
+      "options": [
+        "The first Prime Minister of Canada",
+        "A Métis leader who led resistance movements against the Canadian government",
+        "A French explorer who discovered the Great Lakes",
+        "An early British governor of Upper Canada"
+      ],
+      "correctAnswer": "A Métis leader who led resistance movements against the Canadian government",
+      "explanation": "Louis Riel was a Métis leader who led resistance movements against the Canadian government to preserve Métis rights and culture. He led the Red River Resistance (1869-70) and the North-West Resistance (1885).",
+      "reference": "Discover Canada, p. 20",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h13",
+      "question": "What was the name of the ship that brought many of the first permanent European settlers to Nova Scotia in 1749?",
+      "options": [
+        "HMS Victory",
+        "HMS Halifax",
+        "HMS Cornwallis",
+        "HMS Endeavour"
+      ],
+      "correctAnswer": "HMS Cornwallis",
+      "explanation": "HMS Cornwallis brought many of the first permanent European settlers to establish Halifax in 1749 under the leadership of Colonel Edward Cornwallis.",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h14",
+      "question": "What major event occurred in Canada during the Great Depression?",
+      "options": [
+        "The October Crisis",
+        "The On-to-Ottawa Trek",
+        "The Winnipeg General Strike",
+        "The FLQ Crisis"
+      ],
+      "correctAnswer": "The On-to-Ottawa Trek",
+      "explanation": "During the Great Depression of the 1930s, the On-to-Ottawa Trek was a protest movement of unemployed workers who traveled from relief camps in Western Canada to Ottawa to demand better working conditions and wages.",
+      "reference": "Discover Canada, p. 23",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h15",
+      "question": "Which event is commemorated on Remembrance Day (November 11)?",
+      "options": [
+        "The end of the War of 1812",
+        "The signing of Confederation",
+        "The end of World War I",
+        "The adoption of the Canadian flag"
+      ],
+      "correctAnswer": "The end of World War I",
+      "explanation": "Remembrance Day commemorates the armistice that ended World War I on November 11, 1918, at 11 a.m. It honors those who died in World War I and later conflicts.",
+      "reference": "Discover Canada, p. 22",
+      "category": "history",
+      "difficulty": "easy"
+    },
+    {
+      "id": "h16",
+      "question": "What was the Komagata Maru incident?",
+      "options": [
+        "A naval battle during World War II",
+        "A ship carrying immigrants that was turned away from Canada in 1914",
+        "The first flight across Canada",
+        "A treaty between Canada and Japan"
+      ],
+      "correctAnswer": "A ship carrying immigrants that was turned away from Canada in 1914",
+      "explanation": "In 1914, the Komagata Maru was a ship carrying 376 passengers, primarily Sikhs from Punjab, India. The ship was denied entry to Canada due to discriminatory immigration policies, and was forced to return to India.",
+      "reference": "Discover Canada, p. 24",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h17",
+      "question": "In which year did Newfoundland join Confederation to become Canada's 10th province?",
+      "options": [
+        "1867",
+        "1905",
+        "1949",
+        "1975"
+      ],
+      "correctAnswer": "1949",
+      "explanation": "Newfoundland was the last province to join Canada, becoming the 10th province in 1949 following a referendum.",
+      "reference": "Discover Canada, p. 24",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h18",
+      "question": "What was the name of the residential school system established for Indigenous children?",
+      "options": [
+        "Indigenous Education Program",
+        "First Nations Learning Centers",
+        "Indian Residential School System",
+        "Native Integration Schools"
+      ],
+      "correctAnswer": "Indian Residential School System",
+      "explanation": "The Indian Residential School System was established to assimilate Indigenous children into Euro-Canadian culture. These schools caused significant harm to Indigenous children, families, and communities.",
+      "reference": "Discover Canada, p. 10",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h19",
+      "question": "When did the last spike complete the Canadian Pacific Railway?",
+      "options": [
+        "1867",
+        "1885",
+        "1901",
+        "1914"
+      ],
+      "correctAnswer": "1885",
+      "explanation": "The last spike of the Canadian Pacific Railway was driven at Craigellachie, British Columbia, on November 7, 1885, completing Canada's first transcontinental railroad.",
+      "reference": "Discover Canada, p. 20",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h20",
+      "question": "Which document officially recognized the rights of First Nations, Inuit, and Métis peoples in 1982?",
+      "options": [
+        "The Indian Act",
+        "The Royal Proclamation",
+        "The Constitution Act, 1982",
+        "The Treaty of Niagara"
+      ],
+      "correctAnswer": "The Constitution Act, 1982",
+      "explanation": "The Constitution Act, 1982 officially recognized and affirmed the Aboriginal and treaty rights of First Nations, Inuit, and Métis peoples in Section 35.",
+      "reference": "Discover Canada, p. 14",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h21",
+      "question": "Which explorer is credited with naming Canada?",
+      "options": [
+        "John Cabot",
+        "Jacques Cartier",
+        "Samuel de Champlain",
+        "Henry Hudson"
+      ],
+      "correctAnswer": "Jacques Cartier",
+      "explanation": "Jacques Cartier is credited with naming Canada, derived from the Huron-Iroquois word 'kanata' meaning village or settlement, which he used to refer to the area around what is now Quebec City.",
+      "reference": "Discover Canada, p. 14",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h22",
+      "question": "What was the name of the company that controlled much of Canada's fur trade from 1670 to the mid-19th century?",
+      "options": [
+        "North West Company",
+        "Hudson's Bay Company",
+        "East India Company",
+        "Canadian Fur Trading Co."
+      ],
+      "correctAnswer": "Hudson's Bay Company",
+      "explanation": "The Hudson's Bay Company, established in 1670, controlled much of the fur trade in British North America for centuries and is the oldest incorporated company in North America still in operation.",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h23",
+      "question": "What was the Underground Railroad?",
+      "options": [
+        "Canada's first subway system",
+        "A secret mining operation",
+        "A network helping escaped slaves reach freedom in Canada",
+        "A black market trading system"
+      ],
+      "correctAnswer": "A network helping escaped slaves reach freedom in Canada",
+      "explanation": "The Underground Railroad was a network of secret routes and safe houses established in the United States during the early to mid-19th century to help African American slaves escape into free states and Canada.",
+      "reference": "Discover Canada, p. 17",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h24",
+      "question": "In what year did the United States attempt to invade Canada?",
+      "options": [
+        "1776",
+        "1812",
+        "1867",
+        "1914"
+      ],
+      "correctAnswer": "1812",
+      "explanation": "In 1812, during the War of 1812, the United States attempted to invade and take over British North America (now Canada), but the invasion was repelled.",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h25",
+      "question": "Who was the first woman to be elected to Parliament in Canada?",
+      "options": [
+        "Nellie McClung",
+        "Agnes Macphail",
+        "Emily Murphy",
+        "Kim Campbell"
+      ],
+      "correctAnswer": "Agnes Macphail",
+      "explanation": "Agnes Macphail was the first woman elected to the House of Commons in 1921, following the extension of voting rights to women in 1918.",
+      "reference": "Discover Canada, p. 21",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h26",
+      "question": "What is the significance of the Royal Proclamation of 1763?",
+      "options": [
+        "It established French as an official language",
+        "It recognized Indigenous land rights and established protocols for European settlement",
+        "It united Upper and Lower Canada",
+        "It declared Canada's independence from Britain"
+      ],
+      "correctAnswer": "It recognized Indigenous land rights and established protocols for European settlement",
+      "explanation": "The Royal Proclamation of 1763 established British authority over former French territories in North America and recognized Aboriginal land rights. It established that land could only be ceded to the Crown, not to individuals.",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h27",
+      "question": "Which event is often referred to as 'Canada's Pearl Harbor'?",
+      "options": [
+        "The Halifax Explosion",
+        "The Battle of the Atlantic",
+        "The Dieppe Raid",
+        "The Hong Kong Battle"
+      ],
+      "correctAnswer": "The Hong Kong Battle",
+      "explanation": "The Battle of Hong Kong in December 1941 is sometimes called 'Canada's Pearl Harbor.' It happened at the same time as the attack on Pearl Harbor, and resulted in the deaths or capture of nearly 2,000 Canadian soldiers.",
+      "reference": "Discover Canada, p. 23",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h28",
+      "question": "When did Canada adopt the maple leaf flag?",
+      "options": [
+        "1867",
+        "1931",
+        "1965",
+        "1982"
+      ],
+      "correctAnswer": "1965",
+      "explanation": "The current maple leaf flag was adopted in 1965, replacing the Red Ensign that had been used previously.",
+      "reference": "Discover Canada, p. 38",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h29",
+      "question": "Which Prime Minister established universal health care in Canada?",
+      "options": [
+        "John A. Macdonald",
+        "William Lyon Mackenzie King",
+        "Lester B. Pearson",
+        "Pierre Elliott Trudeau"
+      ],
+      "correctAnswer": "Lester B. Pearson",
+      "explanation": "Prime Minister Lester B. Pearson established universal health care in the 1960s, with the Medical Care Act of 1966, though Saskatchewan had introduced a provincial plan earlier under Tommy Douglas.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h30",
+      "question": "What was the Halifax Explosion?",
+      "options": [
+        "A military attack during World War I",
+        "A mining disaster in Nova Scotia",
+        "The collision of two ships that caused a massive explosion",
+        "A political uprising in Halifax"
+      ],
+      "correctAnswer": "The collision of two ships that caused a massive explosion",
+      "explanation": "The Halifax Explosion occurred on December 6, 1917, when two ships collided in Halifax Harbour, causing a massive explosion that killed about 2,000 people and injured 9,000 others.",
+      "reference": "Discover Canada, p. 22",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h31",
+      "question": "What was the name of the rebellion led by Louis Riel in 1885?",
+      "options": [
+        "The Red River Rebellion",
+        "The North-West Rebellion",
+        "The Manitoba Uprising",
+        "The Saskatchewan Revolt"
+      ],
+      "correctAnswer": "The North-West Rebellion",
+      "explanation": "The North-West Rebellion of 1885 was led by Louis Riel in what is now Saskatchewan. The Red River Rebellion was an earlier conflict in 1869-70 in Manitoba.",
+      "reference": "Discover Canada, p. 20",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h32",
+      "question": "Which of these provinces was the last to join Confederation?",
+      "options": [
+        "Alberta",
+        "Newfoundland and Labrador",
+        "Saskatchewan",
+        "British Columbia"
+      ],
+      "correctAnswer": "Newfoundland and Labrador",
+      "explanation": "Newfoundland and Labrador was the last province to join Confederation in 1949, 82 years after the original provinces united.",
+      "reference": "Discover Canada, p. 24",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h33",
+      "question": "When was Nunavut officially established as a territory?",
+      "options": [
+        "1867",
+        "1949",
+        "1982",
+        "1999"
+      ],
+      "correctAnswer": "1999",
+      "explanation": "Nunavut was established as a separate territory on April 1, 1999, as a result of the largest land claims agreement in Canadian history.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h34",
+      "question": "Who were the 'Famous Five' in Canadian history?",
+      "options": [
+        "The first five Prime Ministers",
+        "Five women who fought for women to be recognized legally as 'persons'",
+        "Five explorers who mapped the Canadian Arctic",
+        "Five founders of the Canadian Pacific Railway"
+      ],
+      "correctAnswer": "Five women who fought for women to be recognized legally as 'persons'",
+      "explanation": "The Famous Five were Emily Murphy, Nellie McClung, Louise McKinney, Henrietta Muir Edwards, and Irene Parlby, who successfully fought for women to be recognized as 'persons' under the law in the Persons Case of 1929.",
+      "reference": "Discover Canada, p. 21",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h35",
+      "question": "What historical agreement divided New France into two colonies in 1791?",
+      "options": [
+        "The Treaty of Paris",
+        "The Constitutional Act",
+        "The Quebec Act",
+        "The Act of Union"
+      ],
+      "correctAnswer": "The Constitutional Act",
+      "explanation": "The Constitutional Act of 1791 divided the Province of Quebec into Upper Canada (Ontario) and Lower Canada (Quebec).",
+      "reference": "Discover Canada, p. 15",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h36",
+      "question": "Which of these groups were NOT among the early settlers of Canada?",
+      "options": [
+        "Loyalists from the American Revolution",
+        "Scottish Highlanders",
+        "Irish fleeing the potato famine",
+        "Spanish conquistadors"
+      ],
+      "correctAnswer": "Spanish conquistadors",
+      "explanation": "Spanish conquistadors never established significant settlements in what is now Canada. Early settlers included Loyalists from the American Revolution, Scottish Highlanders, and Irish immigrants fleeing the potato famine.",
+      "reference": "Discover Canada, p. 16-17",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h37",
+      "question": "What was the significance of the October Crisis of 1970?",
+      "options": [
+        "An economic recession",
+        "A terrorist crisis in Quebec that led to the War Measures Act being invoked",
+        "A constitutional standoff between provinces",
+        "The stock market crash"
+      ],
+      "correctAnswer": "A terrorist crisis in Quebec that led to the War Measures Act being invoked",
+      "explanation": "The October Crisis of 1970 involved the kidnapping of a British diplomat and a Quebec cabinet minister by the FLQ (Front de libération du Québec), leading Prime Minister Pierre Trudeau to invoke the War Measures Act.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h38",
+      "question": "The United Empire Loyalists were people who:",
+      "options": [
+        "Supported the American Revolution",
+        "Remained loyal to the British Crown during the American Revolution",
+        "Fought against British rule in Canada",
+        "Were the original French settlers of Quebec"
+      ],
+      "correctAnswer": "Remained loyal to the British Crown during the American Revolution",
+      "explanation": "The United Empire Loyalists were American colonists who remained loyal to the British Crown during and after the American Revolution, with many moving to what is now Canada.",
+      "reference": "Discover Canada, p. 16",
+      "category": "history",
+      "difficulty": "medium"
+    },
+    {
+      "id": "h39",
+      "question": "What was the name of the 1969 policy paper that proposed eliminating special status for Indigenous peoples?",
+      "options": [
+        "The Indian Act",
+        "The White Paper",
+        "The Royal Proclamation",
+        "The Constitution Act"
+      ],
+      "correctAnswer": "The White Paper",
+      "explanation": "The 1969 White Paper proposed abolishing the Indian Act and eliminating the special legal status of Indigenous peoples. It was strongly opposed by Indigenous organizations and was later withdrawn.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h40",
+      "question": "Who was Canada's first female Prime Minister?",
+      "options": [
+        "Kim Campbell",
+        "Adrienne Clarkson",
+        "Flora MacDonald",
+        "Michaëlle Jean"
+      ],
+      "correctAnswer": "Kim Campbell",
+      "explanation": "Kim Campbell became Canada's first female Prime Minister in June 1993, though her term lasted only until November of the same year.",
+      "reference": "Discover Canada, p. 25",
+      "category": "history",
+      "difficulty": "medium"
     }
   ]
 }

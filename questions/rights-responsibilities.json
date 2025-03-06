@@ -74,6 +74,531 @@
       "reference": "Discover Canada, p. 9",
       "category": "rights-responsibilities",
       "difficulty": "medium"
+    },
+    {
+      "id": "r6",
+      "question": "What does freedom of conscience and religion mean in Canada?",
+      "options": [
+        "The government chooses which religions are acceptable",
+        "Everyone must follow the most common religion",
+        "People can follow the religion of their choice or no religion",
+        "Religious laws take precedence over civil laws"
+      ],
+      "correctAnswer": "People can follow the religion of their choice or no religion",
+      "explanation": "In Canada, freedom of conscience and religion means that people are free to follow the religion of their choice or to not follow any religion at all.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r7",
+      "question": "What does it mean to take responsibility for oneself and one's family in Canada?",
+      "options": [
+        "The government provides everything for citizens",
+        "Citizens should be self-reliant and contribute to society",
+        "Each community must be self-sufficient",
+        "Only the wealthy need to support themselves"
+      ],
+      "correctAnswer": "Citizens should be self-reliant and contribute to society",
+      "explanation": "Taking responsibility for yourself and your family means working hard, getting an education, taking care of your family, and not expecting others to support you if you can support yourself.",
+      "reference": "Discover Canada, p. 8",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r8",
+      "question": "What is the 'notwithstanding clause' in the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "A law that cannot be changed",
+        "A provision that allows Parliament or provincial legislatures to override certain rights temporarily",
+        "A statement that gives additional rights to minorities",
+        "The section that defines who is a Canadian citizen"
+      ],
+      "correctAnswer": "A provision that allows Parliament or provincial legislatures to override certain rights temporarily",
+      "explanation": "The notwithstanding clause (Section 33) allows Parliament or provincial legislatures to override certain rights in the Charter for a period of up to five years.",
+      "reference": "Discover Canada, p. 48",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r9",
+      "question": "What is one responsibility of Canadian citizenship mentioned in the citizenship oath?",
+      "options": [
+        "To learn both official languages",
+        "To maintain Canadian traditions",
+        "To uphold Canada's democratic values",
+        "To join the Canadian Armed Forces"
+      ],
+      "correctAnswer": "To uphold Canada's democratic values",
+      "explanation": "In the citizenship oath, new citizens swear to faithfully observe the laws of Canada and fulfill their duties as Canadian citizens, which includes upholding Canada's democratic values.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r10",
+      "question": "What is the significance of the rule of law in Canada?",
+      "options": [
+        "Only certain groups must obey the law",
+        "The law applies differently to different people",
+        "No person or group is above the law",
+        "Laws are created by the courts"
+      ],
+      "correctAnswer": "No person or group is above the law",
+      "explanation": "The rule of law is a fundamental principle in Canada meaning that no person or group is above the law. Everyone, including government officials, police, and military, must obey the law.",
+      "reference": "Discover Canada, p. 8",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r11",
+      "question": "What is meant by the term 'equality rights' in the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "Everyone has the right to vote",
+        "Everyone has the right to the same income",
+        "Everyone has the right to equal protection under the law without discrimination",
+        "Everyone has the right to free education"
+      ],
+      "correctAnswer": "Everyone has the right to equal protection under the law without discrimination",
+      "explanation": "Equality rights in the Charter mean that every individual is equal before and under the law without discrimination based on race, national or ethnic origin, colour, religion, sex, age, or mental or physical disability.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r12",
+      "question": "What is the significance of the Canadian Multiculturalism Act?",
+      "options": [
+        "It provides funding for cultural festivals",
+        "It establishes English and French as official languages",
+        "It recognizes and promotes the understanding that multiculturalism reflects Canada's diversity",
+        "It restricts immigration to preserve Canadian culture"
+      ],
+      "correctAnswer": "It recognizes and promotes the understanding that multiculturalism reflects Canada's diversity",
+      "explanation": "The Canadian Multiculturalism Act recognizes multiculturalism as a fundamental characteristic of Canadian society, acknowledging the freedom of all Canadians to preserve and share their cultural heritage.",
+      "reference": "Discover Canada, p. 13",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r13",
+      "question": "What responsibilities do Canadian citizens have regarding jury duty?",
+      "options": [
+        "Only lawyers need to serve on juries",
+        "Citizens can choose whether to participate or not",
+        "If called to do so, citizens must serve on a jury",
+        "Only those with legal training can serve on juries"
+      ],
+      "correctAnswer": "If called to do so, citizens must serve on a jury",
+      "explanation": "Serving on a jury is a responsibility of citizenship. If called to do so, citizens must participate, unless they have a valid reason for exemption.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r14",
+      "question": "What is the 'reasonable limits' clause in the Charter?",
+      "options": [
+        "A clause that limits rights to reasonable people",
+        "A provision that allows limits on rights if justified in a free and democratic society",
+        "A clause that sets reasonable time limits for court cases",
+        "A provision that establishes reasonable prices for government services"
+      ],
+      "correctAnswer": "A provision that allows limits on rights if justified in a free and democratic society",
+      "explanation": "Section 1 of the Charter allows for 'reasonable limits' on rights and freedoms if they can be justified in a free and democratic society, such as laws against hate speech.",
+      "reference": "Discover Canada, p. 48",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r15",
+      "question": "What does it mean to 'take responsibility for oneself and one's family' in Canada?",
+      "options": [
+        "The government will always provide for citizens' needs",
+        "Family members must live together",
+        "Working hard, getting an education, and caring for your family",
+        "Having a large number of children"
+      ],
+      "correctAnswer": "Working hard, getting an education, and caring for your family",
+      "explanation": "Taking responsibility for oneself and one's family means getting an education, working hard, caring for family members, and avoiding becoming dependent on others for support if possible.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r16",
+      "question": "What rights does the Official Languages Act protect?",
+      "options": [
+        "The right to speak any language in public",
+        "The right to receive federal government services in English or French",
+        "The right to be educated in any language",
+        "The right to create new official languages"
+      ],
+      "correctAnswer": "The right to receive federal government services in English or French",
+      "explanation": "The Official Languages Act ensures that federal government services are provided in both English and French, and supports the development of English and French linguistic minority communities.",
+      "reference": "Discover Canada, p. 39",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r17",
+      "question": "What is the responsibility of Canadian citizens regarding income tax?",
+      "options": [
+        "Only wealthy citizens pay income tax",
+        "Citizens can choose whether to pay taxes",
+        "All citizens must honestly declare their income and pay any taxes due",
+        "Income tax is only collected in certain provinces"
+      ],
+      "correctAnswer": "All citizens must honestly declare their income and pay any taxes due",
+      "explanation": "It is the responsibility of Canadian citizens to honestly declare their income and pay their fair share of taxes, which fund public services and facilities like schools, hospitals, and roads.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r18",
+      "question": "What are 'mobility rights' in the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "The right to free public transportation",
+        "The right to live and work anywhere in Canada",
+        "The right to travel internationally",
+        "The right to drive a vehicle"
+      ],
+      "correctAnswer": "The right to live and work anywhere in Canada",
+      "explanation": "Mobility rights allow Canadian citizens and permanent residents to move to and take up residence in any province or territory, and to pursue a livelihood anywhere in Canada.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r19",
+      "question": "What is the responsibility of Canadian citizens regarding the environment?",
+      "options": [
+        "There are no environmental responsibilities for citizens",
+        "Only government is responsible for environmental protection",
+        "Citizens should help protect Canada's natural, cultural, and architectural heritage",
+        "Citizens must join environmental organizations"
+      ],
+      "correctAnswer": "Citizens should help protect Canada's natural, cultural, and architectural heritage",
+      "explanation": "Canadian citizens have a responsibility to protect and care for the environment and Canada's natural, cultural, and architectural heritage for future generations.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r20",
+      "question": "What legal protections exist regarding the treatment of people accused of crimes in Canada?",
+      "options": [
+        "The right to be presumed innocent until proven guilty",
+        "The right to avoid trial through payment of fines",
+        "The right to choose your own judge",
+        "The right to refuse to participate in the legal process"
+      ],
+      "correctAnswer": "The right to be presumed innocent until proven guilty",
+      "explanation": "The Charter guarantees that anyone charged with an offense is presumed innocent until proven guilty according to law in a fair and public hearing by an independent and impartial tribunal.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r21",
+      "question": "What are the fundamental freedoms guaranteed in the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "Freedom from taxation and military service",
+        "Freedom of conscience, religion, expression, assembly, and association",
+        "Freedom to own guns and property",
+        "Freedom to live anywhere in the world"
+      ],
+      "correctAnswer": "Freedom of conscience, religion, expression, assembly, and association",
+      "explanation": "Section 2 of the Charter guarantees fundamental freedoms including freedom of conscience, religion, thought, belief, expression, peaceful assembly, and association.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r22",
+      "question": "What rights are guaranteed under 'legal rights' in the Charter?",
+      "options": [
+        "The right to free healthcare and education",
+        "The right to fair wages and employment",
+        "The right to life, liberty, and security of the person",
+        "The right to social welfare and public housing"
+      ],
+      "correctAnswer": "The right to life, liberty, and security of the person",
+      "explanation": "Legal rights in the Charter include the right to life, liberty and security of the person, protection against unreasonable search and seizure, and rights upon detention or arrest.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r23",
+      "question": "Which of the following is NOT considered a responsibility of citizenship?",
+      "options": [
+        "Obeying the law",
+        "Serving on a jury when called",
+        "Joining a political party",
+        "Helping others in the community"
+      ],
+      "correctAnswer": "Joining a political party",
+      "explanation": "While citizens are free to join political parties, it is not considered a responsibility of citizenship. Responsibilities include obeying the law, serving on juries, voting, and helping others in the community.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r24",
+      "question": "What is meant by 'habeas corpus'?",
+      "options": [
+        "The right to vote in elections",
+        "The right to a fair trial",
+        "The right to challenge unlawful detention before a court",
+        "The right to legal representation"
+      ],
+      "correctAnswer": "The right to challenge unlawful detention before a court",
+      "explanation": "Habeas corpus, Latin for 'you shall have the body', is a legal principle that allows a person who has been detained to be brought before a court to determine if their detention is lawful.",
+      "reference": "Discover Canada, p. 8",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r25",
+      "question": "According to Canadian citizenship responsibilities, how should Canadians protect Canada's heritage and environment?",
+      "options": [
+        "By joining environmental organizations",
+        "By donating money to conservation efforts",
+        "By helping to preserve our natural, cultural, and architectural heritage for future generations",
+        "By reporting environmental crimes"
+      ],
+      "correctAnswer": "By helping to preserve our natural, cultural, and architectural heritage for future generations",
+      "explanation": "Canadian citizens have a responsibility to protect and care for Canada's natural, cultural, and architectural heritage so that it can be enjoyed by future generations.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r26",
+      "question": "What does Section 23 of the Charter guarantee?",
+      "options": [
+        "The right to vote",
+        "The right to a fair trial",
+        "Minority language educational rights",
+        "Aboriginal rights"
+      ],
+      "correctAnswer": "Minority language educational rights",
+      "explanation": "Section 23 of the Charter guarantees the right of French and English linguistic minorities to be educated in their language where numbers warrant.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r27",
+      "question": "What is meant by the 'presumption of innocence' in Canadian law?",
+      "options": [
+        "All people are innocent if they say they are",
+        "A person is considered innocent until proven guilty in court",
+        "Only citizens are presumed innocent",
+        "The court must prove innocence"
+      ],
+      "correctAnswer": "A person is considered innocent until proven guilty in court",
+      "explanation": "In Canadian law, anyone charged with an offense is presumed innocent until proven guilty according to law in a fair and public hearing by an independent and impartial tribunal.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r28",
+      "question": "What is a Canadian citizen's responsibility regarding the law?",
+      "options": [
+        "To know every law",
+        "To obey the law",
+        "To practice law",
+        "To create laws"
+      ],
+      "correctAnswer": "To obey the law",
+      "explanation": "Canadian citizens have a responsibility to obey the law, as stated in the citizenship oath and in the citizenship study guide.",
+      "reference": "Discover Canada, p. 8",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r29",
+      "question": "What right does the Charter of Rights and Freedoms NOT explicitly guarantee?",
+      "options": [
+        "Freedom of expression",
+        "The right to bear arms",
+        "The right to vote",
+        "The right to equal treatment under the law"
+      ],
+      "correctAnswer": "The right to bear arms",
+      "explanation": "Unlike the U.S. Constitution, the Canadian Charter of Rights and Freedoms does not explicitly guarantee the right to bear arms. Gun ownership in Canada is considered a privilege, not a right.",
+      "reference": "Discover Canada, p. 46-47",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r30",
+      "question": "When can a Canadian citizen be denied the right to vote?",
+      "options": [
+        "If they haven't paid their taxes",
+        "If they are in prison serving a sentence of two years or more",
+        "If they haven't voted in previous elections",
+        "If they live outside of Canada"
+      ],
+      "correctAnswer": "If they are in prison serving a sentence of two years or more",
+      "explanation": "The Supreme Court of Canada has ruled that citizens serving prison sentences of two years or more can be denied the right to vote in federal elections.",
+      "reference": "Discover Canada, p. 36",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r31",
+      "question": "What is the purpose of the Canadian Human Rights Act?",
+      "options": [
+        "To enforce the Charter of Rights and Freedoms",
+        "To protect people from discrimination in areas under federal jurisdiction",
+        "To ensure provincial compliance with federal laws",
+        "To regulate international human rights standards"
+      ],
+      "correctAnswer": "To protect people from discrimination in areas under federal jurisdiction",
+      "explanation": "The Canadian Human Rights Act prohibits discrimination based on race, national or ethnic origin, colour, religion, age, sex, sexual orientation, gender identity or expression, marital status, family status, genetic characteristics, disability or conviction for an offence for which a pardon has been granted in areas under federal jurisdiction.",
+      "reference": "Discover Canada, p. 48",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r32",
+      "question": "What is the primary purpose of paying taxes in Canada?",
+      "options": [
+        "To fund the military",
+        "To pay government officials",
+        "To fund public services like education, healthcare, and roads",
+        "To reduce economic inequality"
+      ],
+      "correctAnswer": "To fund public services like education, healthcare, and roads",
+      "explanation": "Paying taxes is a responsibility of citizenship and these taxes fund essential public services such as education, healthcare, roads, and social programs.",
+      "reference": "Discover Canada, p. 9",
+      "category": "rights-responsibilities",
+      "difficulty": "easy"
+    },
+    {
+      "id": "r33",
+      "question": "What does the 'right to life, liberty and security of the person' mean in the Charter?",
+      "options": [
+        "The right to free healthcare",
+        "The right to own property",
+        "The right to be free from government actions that threaten physical or psychological well-being",
+        "The right to travel freely"
+      ],
+      "correctAnswer": "The right to be free from government actions that threaten physical or psychological well-being",
+      "explanation": "Section 7 of the Charter protects individuals from government actions that threaten their physical or psychological integrity and well-being.",
+      "reference": "Discover Canada, p. 47",
+      "category": "rights-responsibilities",
+      "difficulty": "hard"
+    },
+    {
+      "id": "r34",
+      "question": "What is the significance of the Multiculturalism Policy in Canadian rights?",
+      "options": [
+        "It guarantees employment for all cultural groups",
+        "It recognizes and promotes cultural diversity as a fundamental value",
+        "It requires all citizens to learn multiple languages",
+        "It establishes quotas for cultural representation"
+      ],
+      "correctAnswer": "It recognizes and promotes cultural diversity as a fundamental value",
+      "explanation": "Canada's multiculturalism policy recognizes and promotes the understanding that multiculturalism reflects the cultural and racial diversity of Canadian society and acknowledges the freedom of all members of Canadian society to preserve and share their cultural heritage.",
+      "reference": "Discover Canada, p. 13",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r35",
+      "question": "What is the significance of Treaty Rights in Canada?",
+      "options": [
+        "They only apply to Canadian-born citizens",
+        "They guarantee certain rights for non-Indigenous Canadians",
+        "They recognize and affirm the rights of Indigenous peoples based on historic agreements",
+        "They outline international trade relationships"
+      ],
+      "correctAnswer": "They recognize and affirm the rights of Indigenous peoples based on historic agreements",
+      "explanation": "Treaty Rights refer to the specific rights of Indigenous peoples outlined in agreements between Indigenous groups and the Crown. These rights are protected by Section 35 of the Constitution Act, 1982.",
+      "reference": "Discover Canada, p. 14",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r36",
+      "question": "Which statement about Aboriginal rights in Canada is correct?",
+      "options": [
+        "They only apply on reserves",
+        "They are established by provincial legislation",
+        "They are recognized and affirmed in the Constitution Act, 1982",
+        "They were granted by the British North America Act of 1867"
+      ],
+      "correctAnswer": "They are recognized and affirmed in the Constitution Act, 1982",
+      "explanation": "Aboriginal rights and treaty rights are recognized and affirmed in Section 35 of the Constitution Act, 1982. These rights protect the traditions, customs, and practices that are integral to the distinctive cultures of Indigenous peoples.",
+      "reference": "Discover Canada, p. 14",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r37",
+      "question": "What are language rights in Canada primarily concerned with?",
+      "options": [
+        "The right to speak any language in public",
+        "The right to use English and French in Parliament, federal courts, and federal institutions",
+        "The requirement that all Canadians must learn both English and French",
+        "The right to create new official languages"
+      ],
+      "correctAnswer": "The right to use English and French in Parliament, federal courts, and federal institutions",
+      "explanation": "Language rights in Canada are primarily concerned with the status of English and French as official languages, giving citizens the right to communicate with and receive services from the federal government in either language.",
+      "reference": "Discover Canada, p. 39",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r38",
+      "question": "What is an example of a democratic right in the Canadian Charter?",
+      "options": [
+        "The right to life, liberty, and security of the person",
+        "The right to vote and stand for election",
+        "The right to freedom of expression",
+        "The right to equality under the law"
+      ],
+      "correctAnswer": "The right to vote and stand for election",
+      "explanation": "Democratic rights in the Charter include the right to vote in elections, the right to run for public office, the requirement that governments hold elections at least every five years, and the requirement that Parliament and legislatures sit at least once per year.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r39",
+      "question": "What does the 'freedom of peaceful assembly' protect?",
+      "options": [
+        "The right to join any organization",
+        "The right to gather with others to express views",
+        "The right to form a political party",
+        "The right to protest without a permit"
+      ],
+      "correctAnswer": "The right to gather with others to express views",
+      "explanation": "Freedom of peaceful assembly, guaranteed in the Charter, protects the right of people to gather to express their views, such as in protests, rallies, parades, demonstrations, or other public gatherings, so long as they are peaceful.",
+      "reference": "Discover Canada, p. 46",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
+    },
+    {
+      "id": "r40",
+      "question": "What is the 'Official Languages Act'?",
+      "options": [
+        "A law that requires all Canadians to learn both English and French",
+        "A law that establishes English and French as the official languages of Canada",
+        "A law that prohibits the use of languages other than English and French",
+        "A law that requires schools to teach in both English and French"
+      ],
+      "correctAnswer": "A law that establishes English and French as the official languages of Canada",
+      "explanation": "The Official Languages Act is a federal law that establishes English and French as the official languages of Canada and requires federal institutions to provide services in both languages where there is significant demand.",
+      "reference": "Discover Canada, p. 39",
+      "category": "rights-responsibilities",
+      "difficulty": "medium"
     }
   ]
 }

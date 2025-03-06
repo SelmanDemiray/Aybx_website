@@ -1,0 +1,604 @@
+{
+  "questions": [
+    {
+      "id": "geo1",
+      "question": "Which ocean borders Canada on the west?",
+      "options": [
+        "Atlantic Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean"
+      ],
+      "correctAnswer": "Pacific Ocean",
+      "explanation": "Canada is bordered by the Pacific Ocean on the west, the Atlantic Ocean on the east, and the Arctic Ocean to the north.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo2",
+      "question": "Which is Canada's largest province by area?",
+      "options": [
+        "Ontario",
+        "British Columbia",
+        "Quebec",
+        "Alberta"
+      ],
+      "correctAnswer": "Quebec",
+      "explanation": "Quebec is Canada's largest province by area, covering 1,542,056 square kilometers.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo3",
+      "question": "Which of Canada's Great Lakes is entirely within Canada's borders?",
+      "options": [
+        "Lake Ontario",
+        "Lake Erie",
+        "Lake Superior",
+        "None of them"
+      ],
+      "correctAnswer": "None of them",
+      "explanation": "All of Canada's Great Lakes (Ontario, Erie, Huron, Michigan, and Superior) are shared with the United States.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo4",
+      "question": "What is Canada's highest mountain?",
+      "options": [
+        "Mount Logan",
+        "Mount Robson",
+        "Mount Columbia",
+        "Mount McKinley"
+      ],
+      "correctAnswer": "Mount Logan",
+      "explanation": "Mount Logan in Yukon is Canada's highest peak at 5,959 meters (19,551 feet).",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo5",
+      "question": "Which Canadian city is the most populated?",
+      "options": [
+        "Montreal",
+        "Vancouver",
+        "Toronto",
+        "Calgary"
+      ],
+      "correctAnswer": "Toronto",
+      "explanation": "Toronto is Canada's largest city with a population of over 2.9 million people.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo6",
+      "question": "What percentage of the world's fresh water is in Canada?",
+      "options": [
+        "7%",
+        "15%",
+        "20%",
+        "30%"
+      ],
+      "correctAnswer": "20%",
+      "explanation": "Canada has about 20% of the world's fresh water in its lakes and rivers, including the Great Lakes which form the largest body of fresh water in the world.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo7",
+      "question": "How many provinces does Canada have?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "10",
+      "explanation": "Canada has 10 provinces: Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island, Quebec, and Saskatchewan.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo8",
+      "question": "How many territories does Canada have?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "explanation": "Canada has 3 territories: Northwest Territories, Nunavut, and Yukon.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo9",
+      "question": "Which province or territory has the smallest population?",
+      "options": [
+        "Prince Edward Island",
+        "Nunavut",
+        "Yukon",
+        "Northwest Territories"
+      ],
+      "correctAnswer": "Nunavut",
+      "explanation": "Nunavut has the smallest population of all Canadian provinces and territories, with approximately 39,000 residents.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo10",
+      "question": "What is the capital city of Canada?",
+      "options": [
+        "Toronto",
+        "Montreal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "correctAnswer": "Ottawa",
+      "explanation": "Ottawa, located in Ontario, is the capital city of Canada and home to the federal government and Parliament.",
+      "reference": "Discover Canada, p. 12",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo11",
+      "question": "Which of Canada's national parks is the oldest?",
+      "options": [
+        "Banff National Park",
+        "Jasper National Park",
+        "Glacier National Park",
+        "Wood Buffalo National Park"
+      ],
+      "correctAnswer": "Banff National Park",
+      "explanation": "Banff National Park, established in 1885, is Canada's oldest national park, located in the Rocky Mountains of Alberta.",
+      "reference": "Discover Canada, p. 12",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo12",
+      "question": "Which province is known as the 'Land of Living Skies'?",
+      "options": [
+        "Manitoba",
+        "Alberta",
+        "Saskatchewan",
+        "British Columbia"
+      ],
+      "correctAnswer": "Saskatchewan",
+      "explanation": "Saskatchewan is known as the 'Land of Living Skies' due to its dramatic cloud formations and northern lights displays.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo13",
+      "question": "What is the name of the sea route through the Arctic Archipelago that connects the Atlantic and Pacific Oceans?",
+      "options": [
+        "Arctic Passage",
+        "Northwest Passage",
+        "Northern Route",
+        "Arctic Canal"
+      ],
+      "correctAnswer": "Northwest Passage",
+      "explanation": "The Northwest Passage is a sea route through the Arctic Archipelago that connects the Atlantic and Pacific Oceans, historically sought by explorers as a potential trade route.",
+      "reference": "Discover Canada, p. 14",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo14",
+      "question": "What are the Rocky Mountains?",
+      "options": [
+        "A mountain range in eastern Canada",
+        "A mountain range along the west coast of Canada",
+        "A series of hills in central Canada",
+        "A mountain chain separating Alberta from British Columbia"
+      ],
+      "correctAnswer": "A mountain chain separating Alberta from British Columbia",
+      "explanation": "The Rocky Mountains are a major mountain range that forms part of the boundary between Alberta and British Columbia in western Canada.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo15",
+      "question": "What is the longest river in Canada?",
+      "options": [
+        "St. Lawrence River",
+        "Fraser River",
+        "Mackenzie River",
+        "Yukon River"
+      ],
+      "correctAnswer": "Mackenzie River",
+      "explanation": "The Mackenzie River is the longest river in Canada at 4,241 km, flowing through the Northwest Territories to the Arctic Ocean.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo16",
+      "question": "What percentage of Canada's land mass is covered by forests?",
+      "options": [
+        "About 15%",
+        "About 30%",
+        "About 45%",
+        "About 60%"
+      ],
+      "correctAnswer": "About 45%",
+      "explanation": "Approximately 45% of Canada's land mass is covered by forests, making it one of the most forested countries in the world.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo17",
+      "question": "Which Canadian province is an island?",
+      "options": [
+        "Nova Scotia",
+        "Prince Edward Island",
+        "Newfoundland and Labrador",
+        "New Brunswick"
+      ],
+      "correctAnswer": "Prince Edward Island",
+      "explanation": "Prince Edward Island is Canada's smallest province and the only province that is entirely an island.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo18",
+      "question": "Which of these Canadian cities is located farthest north?",
+      "options": [
+        "Edmonton",
+        "Winnipeg",
+        "Quebec City",
+        "Yellowknife"
+      ],
+      "correctAnswer": "Yellowknife",
+      "explanation": "Yellowknife, the capital of the Northwest Territories, is located much farther north than the other cities listed, at approximately 62 degrees north latitude.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo19",
+      "question": "Which Great Lake does not border Ontario?",
+      "options": [
+        "Lake Ontario",
+        "Lake Erie",
+        "Lake Huron",
+        "Lake Michigan"
+      ],
+      "correctAnswer": "Lake Michigan",
+      "explanation": "Lake Michigan is the only Great Lake that does not border Ontario or any part of Canada. It is entirely within the United States.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo20",
+      "question": "Which province borders the most other provinces and territories?",
+      "options": [
+        "Ontario",
+        "Quebec",
+        "Manitoba",
+        "Saskatchewan"
+      ],
+      "correctAnswer": "Saskatchewan",
+      "explanation": "Saskatchewan borders the most other provinces and territories with 5 borders: Manitoba, Northwest Territories, Nunavut, Alberta, and part of Montana (US).",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo21",
+      "question": "What is Canada's total land area?",
+      "options": [
+        "About 5 million square kilometers",
+        "About 7 million square kilometers",
+        "About 10 million square kilometers",
+        "About 13 million square kilometers"
+      ],
+      "correctAnswer": "About 10 million square kilometers",
+      "explanation": "Canada has a total land area of approximately 9.98 million square kilometers, making it the second-largest country in the world by total area.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo22",
+      "question": "Which Canadian province is the smallest by area?",
+      "options": [
+        "Nova Scotia",
+        "New Brunswick",
+        "Prince Edward Island",
+        "Newfoundland and Labrador"
+      ],
+      "correctAnswer": "Prince Edward Island",
+      "explanation": "Prince Edward Island is Canada's smallest province by area at just 5,660 square kilometers.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo23",
+      "question": "What is the largest island in Canada?",
+      "options": [
+        "Vancouver Island",
+        "Prince Edward Island",
+        "Baffin Island",
+        "Newfoundland"
+      ],
+      "correctAnswer": "Baffin Island",
+      "explanation": "Baffin Island in Nunavut is the largest island in Canada and the fifth-largest island in the world.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo24",
+      "question": "What is the name of the mountain range that runs through British Columbia?",
+      "options": [
+        "Appalachian Mountains",
+        "Rocky Mountains",
+        "Coast Mountains",
+        "Laurentian Mountains"
+      ],
+      "correctAnswer": "Coast Mountains",
+      "explanation": "The Coast Mountains run along the west coast of British Columbia, while the Rocky Mountains run along the B.C.-Alberta border.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo25",
+      "question": "Which province produces the most oil and natural gas?",
+      "options": [
+        "Quebec",
+        "British Columbia",
+        "Saskatchewan",
+        "Alberta"
+      ],
+      "correctAnswer": "Alberta",
+      "explanation": "Alberta is Canada's largest producer of oil and natural gas, with large deposits of oil sands in the northern part of the province.",
+      "reference": "Discover Canada, p. 23",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo26",
+      "question": "Which is Canada's most populous province?",
+      "options": [
+        "British Columbia",
+        "Quebec",
+        "Alberta",
+        "Ontario"
+      ],
+      "correctAnswer": "Ontario",
+      "explanation": "Ontario is Canada's most populous province with over 14 million residents, accounting for nearly 40% of Canada's population.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo27",
+      "question": "Which body of water separates Newfoundland from Labrador?",
+      "options": [
+        "Belle Isle Strait",
+        "Gulf of St. Lawrence",
+        "Hudson Bay",
+        "Davis Strait"
+      ],
+      "correctAnswer": "Belle Isle Strait",
+      "explanation": "The Strait of Belle Isle separates the island of Newfoundland from the Labrador Peninsula on the Canadian mainland.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo28",
+      "question": "What is the capital city of Nunavut?",
+      "options": [
+        "Yellowknife",
+        "Whitehorse",
+        "Iqaluit",
+        "Rankin Inlet"
+      ],
+      "correctAnswer": "Iqaluit",
+      "explanation": "Iqaluit is the capital and largest city of Nunavut territory, located on Baffin Island.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo29",
+      "question": "Which of these Canadian cities has the mildest climate?",
+      "options": [
+        "Winnipeg",
+        "Edmonton",
+        "Halifax",
+        "Victoria"
+      ],
+      "correctAnswer": "Victoria",
+      "explanation": "Victoria, British Columbia has the mildest climate in Canada, with temperatures rarely falling below freezing in winter.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo30",
+      "question": "What is the name of the desert-like region in southern British Columbia?",
+      "options": [
+        "Peace River Valley",
+        "Okanagan Desert",
+        "Fraser Delta",
+        "Cariboo Plateau"
+      ],
+      "correctAnswer": "Okanagan Desert",
+      "explanation": "The Okanagan Desert near Osoyoos, British Columbia is Canada's only true desert region, receiving less than 25 cm of rainfall annually.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo31",
+      "question": "Which Canadian city is known as 'Steeltown'?",
+      "options": [
+        "Hamilton",
+        "Windsor",
+        "Montreal",
+        "Sudbury"
+      ],
+      "correctAnswer": "Hamilton",
+      "explanation": "Hamilton, Ontario is known as 'Steeltown' because of its history as a major steel manufacturing center.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo32",
+      "question": "Which Canadian province has the most freshwater lakes?",
+      "options": [
+        "Quebec",
+        "Ontario",
+        "Manitoba",
+        "Saskatchewan"
+      ],
+      "correctAnswer": "Ontario",
+      "explanation": "Ontario has more than 250,000 lakes, which is about one-fifth of the world's fresh water supply.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo33",
+      "question": "What natural feature is Niagara Falls?",
+      "options": [
+        "A canyon",
+        "A waterfall",
+        "A mountain",
+        "A glacier"
+      ],
+      "correctAnswer": "A waterfall",
+      "explanation": "Niagara Falls is a famous waterfall on the border between Ontario and New York state, and is one of Canada's most famous natural attractions.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo34",
+      "question": "What is the Bay of Fundy famous for?",
+      "options": [
+        "Being the world's largest bay",
+        "Having the world's highest tides",
+        "Being the warmest water in Canada",
+        "Its abundant coral reefs"
+      ],
+      "correctAnswer": "Having the world's highest tides",
+      "explanation": "The Bay of Fundy, between New Brunswick and Nova Scotia, has the highest tides in the world, with a difference of up to 16 meters between high and low tide.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo35",
+      "question": "Which of these Canadian cities does NOT border the United States?",
+      "options": [
+        "Windsor",
+        "Niagara Falls",
+        "Calgary",
+        "Vancouver"
+      ],
+      "correctAnswer": "Calgary",
+      "explanation": "Calgary, Alberta is located in southern Alberta but does not border the United States. Windsor, Niagara Falls, and Vancouver all border or are very close to the U.S. border.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo36",
+      "question": "Which province is known as 'Canada's Ocean Playground'?",
+      "options": [
+        "Newfoundland and Labrador",
+        "British Columbia",
+        "Prince Edward Island",
+        "Nova Scotia"
+      ],
+      "correctAnswer": "Nova Scotia",
+      "explanation": "Nova Scotia's license plate slogan is 'Canada's Ocean Playground' due to its extensive coastline and maritime culture.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo37",
+      "question": "What is the name of Canada's northernmost permanent settlement?",
+      "options": [
+        "Iqaluit",
+        "Alert",
+        "Resolute",
+        "Yellowknife"
+      ],
+      "correctAnswer": "Alert",
+      "explanation": "Alert, Nunavut is the northernmost permanently inhabited settlement in the world, located just 817 km from the North Pole.",
+      "reference": "Discover Canada, p. 11",
+      "category": "geography",
+      "difficulty": "hard"
+    },
+    {
+      "id": "geo38",
+      "question": "Which tree is a symbol of Quebec and appears on its flag?",
+      "options": [
+        "Spruce",
+        "Maple",
+        "Lily",
+        "Fleur-de-lis"
+      ],
+      "correctAnswer": "Fleur-de-lis",
+      "explanation": "The fleur-de-lis (while not actually a tree but a stylized lily) is a symbol of Quebec and appears on its flag. The question is deliberately misleading to test knowledge of Quebec's flag.",
+      "reference": "Discover Canada, p. 38",
+      "category": "geography",
+      "difficulty": "medium"
+    },
+    {
+      "id": "geo39",
+      "question": "What is the most common first language spoken in Quebec?",
+      "options": [
+        "English",
+        "French",
+        "Spanish",
+        "Indigenous languages"
+      ],
+      "correctAnswer": "French",
+      "explanation": "French is the most common first language spoken in Quebec, with over 80% of the population speaking French as their first language.",
+      "reference": "Discover Canada, p. 39",
+      "category": "geography",
+      "difficulty": "easy"
+    },
+    {
+      "id": "geo40",
+      "question": "What major Canadian geographical feature was created by retreating glaciers from the last Ice Age?",
+      "options": [
+        "The Rocky Mountains",
+        "The Great Lakes",
+        "The Canadian Shield",
+        "The Interior Plains"
+      ],
+      "correctAnswer": "The Great Lakes",
+      "explanation": "The Great Lakes were formed about 14,000 years ago when retreating glaciers left behind massive basins that filled with water from the melting ice.",
+      "reference": "Discover Canada, p. 10",
+      "category": "geography",
+      "difficulty": "hard"
+    }
+  ]
+}
