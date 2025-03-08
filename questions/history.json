@@ -182,15 +182,15 @@
     },
     {
       "id": "h13",
-      "question": "What was the name of the ship that brought many of the first permanent European settlers to Nova Scotia in 1749?",
+      "question": "Who led the British expedition that established Halifax in 1749?",
       "options": [
-        "HMS Victory",
-        "HMS Halifax",
-        "HMS Cornwallis",
-        "HMS Endeavour"
+        "James Cook",
+        "Edward Cornwallis",
+        "John Graves Simcoe",
+        "Samuel de Champlain"
       ],
-      "correctAnswer": "HMS Cornwallis",
-      "explanation": "HMS Cornwallis brought many of the first permanent European settlers to establish Halifax in 1749 under the leadership of Colonel Edward Cornwallis.",
+      "correctAnswer": "Edward Cornwallis",
+      "explanation": "Edward Cornwallis led the British expedition that established Halifax in 1749, bringing approximately 2,500 settlers to Nova Scotia.",
       "reference": "Discover Canada, p. 15",
       "category": "history",
       "difficulty": "hard"
@@ -392,15 +392,15 @@
     },
     {
       "id": "h27",
-      "question": "Which event is often referred to as 'Canada's Pearl Harbor'?",
+      "question": "Which significant battle involving Canadian forces occurred in December 1941, around the same time as Pearl Harbor?",
       "options": [
-        "The Halifax Explosion",
         "The Battle of the Atlantic",
-        "The Dieppe Raid",
-        "The Hong Kong Battle"
+        "The Battle of Dieppe",
+        "The Battle of Hong Kong",
+        "The Battle of Ortona"
       ],
-      "correctAnswer": "The Hong Kong Battle",
-      "explanation": "The Battle of Hong Kong in December 1941 is sometimes called 'Canada's Pearl Harbor.' It happened at the same time as the attack on Pearl Harbor, and resulted in the deaths or capture of nearly 2,000 Canadian soldiers.",
+      "correctAnswer": "The Battle of Hong Kong",
+      "explanation": "The Battle of Hong Kong in December 1941 was a significant engagement that occurred shortly after Japan's entry into World War II. Nearly 2,000 Canadian soldiers were killed or captured during this battle.",
       "reference": "Discover Canada, p. 23",
       "category": "history",
       "difficulty": "hard"

@@ -242,7 +242,7 @@
     },
     {
       "id": "geo17",
-      "question": "Which Canadian province is an island?",
+      "question": "Which Canadian province is entirely an island?",
       "options": [
         "Nova Scotia",
         "Prince Edward Island",
@@ -294,8 +294,8 @@
         "Manitoba",
         "Saskatchewan"
       ],
-      "correctAnswer": "Saskatchewan",
-      "explanation": "Saskatchewan borders the most other provinces and territories with 5 borders: Manitoba, Northwest Territories, Nunavut, Alberta, and part of Montana (US).",
+      "correctAnswer": "Manitoba",
+      "explanation": "Manitoba borders 4 other provinces and territories: Ontario, Saskatchewan, Nunavut, and Northwest Territories.",
       "reference": "Discover Canada, p. 11",
       "category": "geography",
       "difficulty": "hard"
@@ -347,7 +347,7 @@
     },
     {
       "id": "geo24",
-      "question": "What is the name of the mountain range that runs through British Columbia?",
+      "question": "What is the name of the mountain range that runs along the west coast of British Columbia?",
       "options": [
         "Appalachian Mountains",
         "Rocky Mountains",
@@ -557,15 +557,15 @@
     },
     {
       "id": "geo38",
-      "question": "Which tree is a symbol of Quebec and appears on its flag?",
+      "question": "Which symbol appears on Quebec's flag?",
       "options": [
-        "Spruce",
-        "Maple",
-        "Lily",
+        "Maple leaf",
+        "Beaver",
+        "Eagle",
         "Fleur-de-lis"
       ],
       "correctAnswer": "Fleur-de-lis",
-      "explanation": "The fleur-de-lis (while not actually a tree but a stylized lily) is a symbol of Quebec and appears on its flag. The question is deliberately misleading to test knowledge of Quebec's flag.",
+      "explanation": "The fleur-de-lis, a stylized lily flower, is a symbol of Quebec and prominently appears on its flag.",
       "reference": "Discover Canada, p. 38",
       "category": "geography",
       "difficulty": "medium"

@@ -376,127 +376,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s1",
-      "question": "What is on the Canadian flag?",
-      "options": [
-        "A beaver",
-        "A maple leaf",
-        "The Union Jack",
-        "A moose"
-      ],
-      "correctAnswer": "A maple leaf",
-      "explanation": "The Canadian national flag features a stylized red maple leaf on a white square with red bands on either side.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "easy"
-    },
-    {
-      "id": "s2",
-      "question": "When was the current Canadian flag adopted?",
-      "options": [
-        "1867",
-        "1931",
-        "1965",
-        "1982"
-      ],
-      "correctAnswer": "1965",
-      "explanation": "The current maple leaf flag was officially adopted on February 15, 1965, replacing the Red Ensign.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s3",
-      "question": "What animal is an official symbol of Canada?",
-      "options": [
-        "Polar bear",
-        "Moose",
-        "Beaver",
-        "Loon"
-      ],
-      "correctAnswer": "Beaver",
-      "explanation": "The beaver was designated as an official symbol of Canada in 1975, recognizing its historical significance in the fur trade and development of Canada.",
-      "reference": "Discover Canada, p. 39",
-      "category": "symbols",
-      "difficulty": "easy"
-    },
-    {
-      "id": "s4",
-      "question": "What is Canada's national anthem?",
-      "options": [
-        "God Save the Queen",
-        "O Canada",
-        "The Maple Leaf Forever",
-        "Canada True North"
-      ],
-      "correctAnswer": "O Canada",
-      "explanation": "O Canada became the official national anthem in 1980, though it had been sung since 1880.",
-      "reference": "Discover Canada, p. 40",
-      "category": "symbols",
-      "difficulty": "easy"
-    },
-    {
-      "id": "s5",
-      "question": "What is Canada's official motto?",
-      "options": [
-        "Peace, Order, and Good Government",
-        "From Sea to Sea",
-        "True North Strong and Free",
-        "Unity in Diversity"
-      ],
-      "correctAnswer": "From Sea to Sea",
-      "explanation": "Canada's official motto is 'A Mari Usque Ad Mare,' which means 'From Sea to Sea' in Latin.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s6",
-      "question": "Which of these sports is Canada's national winter sport?",
-      "options": [
-        "Basketball",
-        "Ice hockey",
-        "Curling",
-        "Skiing"
-      ],
-      "correctAnswer": "Ice hockey",
-      "explanation": "Ice hockey was officially declared Canada's national winter sport in 1994.",
-      "reference": "Discover Canada, p. 39",
-      "category": "symbols",
-      "difficulty": "easy"
-    },
-    {
-      "id": "s7",
-      "question": "Which of these sports is Canada's national summer sport?",
-      "options": [
-        "Soccer",
-        "Baseball",
-        "Lacrosse",
-        "Tennis"
-      ],
-      "correctAnswer": "Lacrosse",
-      "explanation": "Lacrosse was declared Canada's national summer sport in 1994. The game originated with Indigenous peoples and has been played in Canada for hundreds of years.",
-      "reference": "Discover Canada, p. 39",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s8",
-      "question": "What is the name of the tower in the Centre Block of Parliament?",
-      "options": [
-        "Victory Tower",
-        "Canada Tower",
-        "Peace Tower",
-        "Confederation Tower"
-      ],
-      "correctAnswer": "Peace Tower",
-      "explanation": "The Peace Tower (Tour de la Paix) is the main tower of the Centre Block of the Parliament buildings, built to commemorate Canada's commitment to peace.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s9",
+      "id": "sym26",
       "question": "What symbol appears on the Royal Canadian Mounted Police (RCMP) badge?",
       "options": [
         "A bear",
@@ -511,7 +391,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s10",
+      "id": "sym27",
       "question": "What flower is a symbol of Ontario?",
       "options": [
         "Lily",
@@ -526,7 +406,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s11",
+      "id": "sym28",
       "question": "What flower is a symbol of Quebec?",
       "options": [
         "Lily",
@@ -541,7 +421,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s12",
+      "id": "sym29",
       "question": "What tree is considered a symbol of Canada?",
       "options": [
         "Pine tree",
@@ -556,37 +436,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "s13",
-      "question": "Who is Canada's head of state?",
-      "options": [
-        "The Prime Minister",
-        "The Governor General",
-        "The King",
-        "The Chief Justice"
-      ],
-      "correctAnswer": "The King",
-      "explanation": "Canada's head of state is the British sovereign (King Charles III). The Governor General represents the monarch in Canada.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s14",
-      "question": "What song is played to honor the monarch in Canada?",
-      "options": [
-        "O Canada",
-        "God Save the King",
-        "The Maple Leaf Forever",
-        "Land of Hope and Glory"
-      ],
-      "correctAnswer": "God Save the King",
-      "explanation": "In Canada, 'God Save the King' (or 'God Save the Queen' when the monarch is female) is the Royal Anthem, played to honor the monarch.",
-      "reference": "Discover Canada, p. 40",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s15",
+      "id": "sym30",
       "question": "What symbol is used on Canadian coins that feature Queen Elizabeth II?",
       "options": [
         "A crown",
@@ -601,7 +451,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "s16",
+      "id": "sym31",
       "question": "What does the maple leaf on Canada's flag represent?",
       "options": [
         "The military",
@@ -616,37 +466,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "s17",
-      "question": "What is the highest civilian honor in Canada?",
-      "options": [
-        "The Order of Canada",
-        "The Victoria Cross",
-        "The Order of Merit",
-        "The Prime Minister's Award"
-      ],
-      "correctAnswer": "The Order of Canada",
-      "explanation": "The Order of Canada is the highest civilian honor for merit in Canada, recognizing outstanding achievement, dedication to the community, and service to the nation.",
-      "reference": "Discover Canada, p. 40",
-      "category": "symbols",
-      "difficulty": "medium"
-    },
-    {
-      "id": "s18",
-      "question": "What is the flag that was used in Canada before the current maple leaf flag?",
-      "options": [
-        "The Union Jack",
-        "The Red Ensign",
-        "The White Ensign",
-        "The Pearson Pennant"
-      ],
-      "correctAnswer": "The Red Ensign",
-      "explanation": "Before the adoption of the maple leaf flag in 1965, Canada used a Red Ensign with the Union Jack in the canton and the Canadian coat of arms on the fly.",
-      "reference": "Discover Canada, p. 38",
-      "category": "symbols",
-      "difficulty": "hard"
-    },
-    {
-      "id": "s19",
+      "id": "sym32",
       "question": "When is Canada Day celebrated?",
       "options": [
         "May 1",
@@ -661,7 +481,7 @@
       "difficulty": "easy"
     },
     {
-      "id": "s20",
+      "id": "sym33",
       "question": "What types of leaves are shown on the Canadian coat of arms?",
       "options": [
         "Maple leaves only",
@@ -676,7 +496,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s21",
+      "id": "sym34",
       "question": "What animals appear on the Canadian coat of arms?",
       "options": [
         "Beaver and moose",
@@ -691,7 +511,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s22",
+      "id": "sym35",
       "question": "What is the design on the reverse side of the Canadian penny coin?",
       "options": [
         "A beaver",
@@ -706,7 +526,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s23",
+      "id": "sym36",
       "question": "What is the official national tartan of Canada?",
       "options": [
         "Royal Stewart",
@@ -721,7 +541,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s24",
+      "id": "sym37",
       "question": "What does the word 'Canada' mean in Iroquoian language?",
       "options": [
         "Big country",
@@ -736,7 +556,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s25",
+      "id": "sym38",
       "question": "When did Canada celebrate its 150th anniversary?",
       "options": [
         "2000",
@@ -751,7 +571,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s26",
+      "id": "sym39",
       "question": "What is the significance of the red and white colors on the Canadian flag?",
       "options": [
         "They represent the Indigenous and European peoples",
@@ -766,7 +586,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s27",
+      "id": "sym40",
       "question": "What image appears on the Canadian $10 bill?",
       "options": [
         "Sir John A. Macdonald",
@@ -781,7 +601,7 @@
       "difficulty": "medium"
     },
     {
-      "id": "s28",
+      "id": "sym41",
       "question": "What is the ceremonial mace in Parliament a symbol of?",
       "options": [
         "Military power",
@@ -796,7 +616,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s29",
+      "id": "sym42",
       "question": "Which of these buildings houses the Senate of Canada?",
       "options": [
         "The West Block",
@@ -811,7 +631,7 @@
       "difficulty": "hard"
     },
     {
-      "id": "s30",
+      "id": "sym43",
       "question": "Which landmark in Ottawa is a symbol of remembrance for fallen Canadian soldiers?",
       "options": [
         "Peace Tower",
